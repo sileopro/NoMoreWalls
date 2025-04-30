@@ -148,6 +148,7 @@ payload:
 - DOMAIN-SUFFIX,githubusercontent.com
 - DOMAIN-SUFFIX,github.blog
 - DOMAIN-SUFFIX,githubassets.com
+- DOMAIN-SUFFIX,github.io
 - DOMAIN-KEYWORD,pinterest
 - DOMAIN-KEYWORD,wikileaks
 - DOMAIN-SUFFIX,abc.net.au
