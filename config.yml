@@ -678,7 +678,7 @@ rules:
   - DOMAIN-SUFFIX,githubusercontent.com,🚀 选择代理
   - DOMAIN-SUFFIX,github.blog,🚀 选择代理
   - DOMAIN-SUFFIX,githubassets.com,🚀 选择代理
-  # - DOMAIN-SUFFIX,github.io,🐟 漏网之鱼
+  - DOMAIN-SUFFIX,github.io,🚀 选择代理
 
   - DOMAIN-KEYWORD,pinterest,🚀 选择代理
   - DOMAIN-KEYWORD,wikileaks,🚀 选择代理
