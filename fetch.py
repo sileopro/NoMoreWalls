@@ -1100,12 +1100,12 @@ def main():
     ctg_nodes_meta: Dict[str, List[Node.DATA_TYPE]] = {}
     categories: Dict[str, List[str]] = {}
     try:
-        with open("snippets/_config.yml", encoding="utf-8") as f:
-            snip_conf = yaml.full_load(f)
-    except (OSError, yaml.error.YAMLError):
-        print("片段配置读取失败：")
+        snip_conf = conf['NoMoreWalls']
+    except KeyError:
+        print("未设置片段配置：")
         traceback.print_exc()
     else:
+        del conf['NoMoreWalls']
         print("正在按地区分类节点...")
         categories = snip_conf['categories']
         for ctg in categories:

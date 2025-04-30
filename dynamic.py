@@ -72,11 +72,11 @@ def w1770946466():
                 subs.add(sub)
     return subs
 
-def peasoft():
-    return session.get("https://gist.githubusercontent.com/peasoft/8a0613b7a2be881d1b793a6bb7536281/raw/").text
+def NOTICE():
+    return "https://gist.githubusercontent.com/peasoft/7907a8ee2a4fa5e80cd1bd006664442c/raw/"
 
-AUTOURLS = []
-AUTOFETCH = [peasoft]
+AUTOURLS = [NOTICE]
+AUTOFETCH = []
 
 if __name__ == '__main__':
     print("URL 抓取："+', '.join([_.__name__ for _ in AUTOURLS]))
