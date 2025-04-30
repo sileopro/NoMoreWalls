@@ -12,6 +12,7 @@ payload:
 - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com
 - DOMAIN-SUFFIX,gvt1-cn.com
 - DOMAIN,redirector.gvt1.com
+- DOMAIN,fonts.googleapis.com
 - DOMAIN,safebrowsing.googleapis.com
 - DOMAIN-SUFFIX,cn
 - DOMAIN-KEYWORD,announce
@@ -38,6 +39,7 @@ payload:
 - DOMAIN-KEYWORD,qiyi
 - DOMAIN-SUFFIX,qy.net
 - DOMAIN-SUFFIX,api.mob.app.letv.com
+- DOMAIN-SUFFIX,microsoft.com
 - DOMAIN-SUFFIX,windows.com
 - DOMAIN-SUFFIX,windows.net
 - DOMAIN-SUFFIX,sfx.ms

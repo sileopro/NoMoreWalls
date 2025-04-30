@@ -2,15 +2,7 @@ payload:
 - DOMAIN-SUFFIX,bing.com
 - DOMAIN-SUFFIX,bing.net
 - DOMAIN-KEYWORD,bingapi
-- DOMAIN-SUFFIX,tapapis.com
-- DOMAIN-KEYWORD,tapsdk
-- DOMAIN-KEYWORD,taptap
-- DOMAIN-SUFFIX,microsoft.com
-- DOMAIN-SUFFIX,steam-chat.com
-- DOMAIN-KEYWORD,steamcdn
-- DOMAIN-KEYWORD,steamstore
-- DOMAIN-KEYWORD,steamuserimages
-- DOMAIN-KEYWORD,steambroadcast
+- DOMAIN-SUFFIX,api.bilibili.com
 - DOMAIN-SUFFIX,apartmentratings.com
 - DOMAIN-SUFFIX,apartments.com
 - DOMAIN-SUFFIX,bankmobilevibe.com
@@ -46,6 +38,7 @@ payload:
 - DOMAIN-SUFFIX,tracfone.com
 - DOMAIN-SUFFIX,uploader.jp
 - DOMAIN-SUFFIX,vevo.com
+- DOMAIN-SUFFIX,viu.tv
 - DOMAIN-SUFFIX,vk.com
 - DOMAIN-SUFFIX,vsco.co
 - DOMAIN-SUFFIX,xfinity.com

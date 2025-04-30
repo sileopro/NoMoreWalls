@@ -1,12 +1,6 @@
 payload:
 - DOMAIN-SUFFIX,onedrive.live.com
 - DOMAIN,global.bing.com
-- DOMAIN-KEYWORD,clash
-- DOMAIN-KEYWORD,v2ray
-- DOMAIN-KEYWORD,v2fly
-- DOMAIN-KEYWORD,vmess
-- DOMAIN-KEYWORD,vless
-- DOMAIN-KEYWORD,shadowsocks
 - DOMAIN-KEYWORD,hysteria
 - DOMAIN-KEYWORD,gfw
 - DOMAIN-KEYWORD,sagernet
@@ -27,6 +21,12 @@ payload:
 - DOMAIN-SUFFIX,huggingface.co
 - DOMAIN-SUFFIX,hf.co
 - DOMAIN,www.skype.com
+- DOMAIN-SUFFIX,community.oneplus.com
+- DOMAIN-SUFFIX,openai.com
+- DOMAIN-SUFFIX,disneyplus.com
+- DOMAIN-SUFFIX,disney.api.edge.bamgrid.com
+- DOMAIN-SUFFIX,api.fast.com
+- DOMAIN-SUFFIX,primevideo.com
 - DOMAIN-KEYWORD,google
 - DOMAIN-SUFFIX,fb.me
 - DOMAIN-SUFFIX,twimg.com
@@ -91,8 +91,10 @@ payload:
 - DOMAIN-SUFFIX,joox.com
 - DOMAIN-KEYWORD,nowtv100
 - DOMAIN-KEYWORD,rthklive
+- DOMAIN-SUFFIX,rthk.hk
 - DOMAIN-SUFFIX,mytvsuper.com
 - DOMAIN-SUFFIX,tvb.com
+- DOMAIN-SUFFIX,tvb.com.hk
 - DOMAIN-SUFFIX,netflix.com
 - DOMAIN-SUFFIX,netflix.net
 - DOMAIN-SUFFIX,nflxext.com
@@ -106,7 +108,6 @@ payload:
 - DOMAIN-KEYWORD,spotify
 - DOMAIN-SUFFIX,scdn.co
 - DOMAIN-SUFFIX,spoti.fi
-- DOMAIN-SUFFIX,viu.tv
 - DOMAIN-KEYWORD,youtube.
 - DOMAIN-SUFFIX,steampowered.com
 - DOMAIN-SUFFIX,appspot.com
@@ -284,6 +285,7 @@ payload:
 - DOMAIN-SUFFIX,scmp.com
 - DOMAIN-SUFFIX,scribd.com
 - DOMAIN-SUFFIX,seatguru.com
+- DOMAIN-SUFFIX,shadowsocks.org
 - DOMAIN-SUFFIX,slideshare.net
 - DOMAIN-SUFFIX,soundcloud.com
 - DOMAIN-SUFFIX,startpage.com
@@ -305,6 +307,7 @@ payload:
 - DOMAIN-SUFFIX,uptodown.com
 - DOMAIN-SUFFIX,ustream.tv
 - DOMAIN-SUFFIX,uwants.com
+- DOMAIN-SUFFIX,v2ray.com
 - DOMAIN-SUFFIX,viber.com
 - DOMAIN-SUFFIX,videopress.com
 - DOMAIN-SUFFIX,vimeo.com
