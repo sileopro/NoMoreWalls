@@ -37,7 +37,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: '10|Channel id: @ShadowProxy66🇸🇬'
+- name: '11|Channel id: @ShadowProxy66🇸🇬'
   password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
   port: 25022
   server: 51.79.141.63
@@ -48,7 +48,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -65,7 +65,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   port: 49121
   server: 183.236.51.38
   skip-cert-verify: false
@@ -75,7 +75,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
   password: K1H754S0IV61IH94
   port: 16015
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -83,7 +83,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 12|新加坡2|@ripaojiedian
+  name: 13|新加坡2|@ripaojiedian
   network: tcp
   port: '49121'
   server: 183.236.51.38
@@ -91,35 +91,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|SG_speednode_0158
-  network: ws
-  port: 8880
-  server: 27.50.48.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|SG_speednode_0159
-  network: ws
-  port: 8880
-  server: 92.243.74.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|SG_speednode_0160
+- name: 14|SG_speednode_0133
   network: ws
   port: 8880
   server: 27.50.49.29
@@ -133,7 +105,35 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|SG_speednode_0161
+- name: 14|SG_speednode_0134
+  network: ws
+  port: 8880
+  server: 27.50.48.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|SG_speednode_0135
+  network: ws
+  port: 8880
+  server: 92.243.74.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|SG_speednode_0136
   network: ws
   port: 8880
   server: 92.243.75.29
@@ -148,36 +148,22 @@ proxies:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: eccb24c1-bdc4-4aaf-8ae9-92553667c0d1
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: eccb24c1-bdc4-4aaf-8ae9-92553667c0d1
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 15|🇸🇬新加坡 01 | 1x SG
-  password: 4e1ef53e-e130-47ca-8bd7-345cd65895c2
+  password: 0cb026d1-9567-48d9-86cf-c10516f4cdee
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 15|🇸🇬新加坡 02 | 1x SG
-  password: 4e1ef53e-e130-47ca-8bd7-345cd65895c2
+  password: 0cb026d1-9567-48d9-86cf-c10516f4cdee
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 15|🇸🇬新加坡 03 | 1x SG
-  password: 4e1ef53e-e130-47ca-8bd7-345cd65895c2
+  password: 0cb026d1-9567-48d9-86cf-c10516f4cdee
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
