@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 3|5🇭🇰香港|官网：abluecloud.xyz
-  password: b626a411-6857-4439-958c-dd8420aac6da
-  port: 36141
-  server: freea.glyphara.com
+  name: 1|4🇭🇰香港|官网：米卡莎.xyz
+  password: fb1c92c0-5e9d-4836-9ac3-db73808a7563
+  port: 31141
+  server: freem.vidalith.com
   type: ss
   udp: true
 - name: 15|GB_speednode_0146
