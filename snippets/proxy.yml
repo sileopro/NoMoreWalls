@@ -8,6 +8,7 @@ payload:
 - DOMAIN-KEYWORD,telegram
 - DOMAIN-KEYWORD,discord
 - DOMAIN-SUFFIX,v1.mk
+- DOMAIN-SUFFIX,lsposed.org
 - DOMAIN-SUFFIX,gitlab.io
 - DOMAIN-SUFFIX,chinadigitaltimes.net
 - DOMAIN-SUFFIX,savefrom.net
