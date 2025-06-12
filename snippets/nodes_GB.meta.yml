@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 3|5🇭🇰香港|官网：a5b3cloud.pro
+  password: 129c900c-b832-40e9-9e7e-a7ed2ff9fd63
+  port: 36141
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - name: '10,12|Channel id: @ShadowProxy66🇬🇧 #1'
   password: e48d6377dda26840
   port: 42353
