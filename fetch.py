@@ -2,6 +2,8 @@
 # ========== User Configs Begin ==========
 # 以下是可以自定义的配置：
 STOP = False              # 暂停抓取节点
+NAME_SHOW_TYPE = False     # 在节点名称前添加如 [Vmess] 的标签
+NAME_NO_FLAGS  = False     # 将节点名称中的地区旗帜改为文本地区码
 NAME_SHOW_SRC  = False    # 在节点名称前显示所属订阅编号 (订阅见 list_result.csv)
 ABFURLS = (           # Adblock 规则黑名单
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
@@ -418,6 +420,19 @@ class Node:
             name = name.replace(word, '*'*len(word))
         if len(name) > max_len:
             name = name[:max_len]+'...'
+        # Merged from #35
+        if NAME_NO_FLAGS:
+            # 地区旗帜符号 A - Z 对应 127462 - 127487
+            name = ''.join([
+                chr(ord(c)-127462+ord('A')) if 127462<=ord(c)<=127487 else c
+                for c in name
+            ])
+        if NAME_SHOW_TYPE:
+            if self.type in ('ss', 'ssr', 'vless', 'tuic'):
+                tp = self.type.upper()
+            else:
+                tp = self.type.title()
+            name = f'[{tp}] ' + name
         if name in Node.names:
             i = 0
             new = name
