@@ -1658,7 +1658,7 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: 10|🇱@ا ا
+- name: '10|@ '
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
@@ -1668,7 +1668,7 @@ proxies:
   sni: sinavm.sinavm.ir
   tls: false
   type: hysteria2
-- name: 10|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+- name: 10|@
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
@@ -1727,6 +1727,15 @@ proxies:
   password: e48d6377dda26840
   port: 42353
   server: 185.184.70.120
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '11|Channel id: @ShadowProxy66🇷🇺 #1'
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 6d579896-40eb-400c-89b4-4eef10f2e7a6
+  port: 30073
+  server: 45.147.201.231
   skip-cert-verify: true
   tls: false
   type: hysteria2
