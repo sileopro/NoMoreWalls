@@ -1,4 +1,30 @@
 #!/usr/bin/env python3
+# ========== User Configs Begin ==========
+# 以下是可以自定义的配置：
+STOP = False          # 暂停抓取节点
+ABFURLS = (           # Adblock 规则黑名单
+    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
+    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers_firstparty.txt",
+    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+    # "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
+    # "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt",
+    # "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt",
+    # "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    # "https://anti-ad.net/adguard.txt",
+    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+    "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
+    # "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
+    # "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
+    # "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_lite.txt",
+    "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
+    # "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt",
+)
+ABFWHITE = (          # Adblock 规则黑名单
+    "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt",
+    "file:///./abpwhite.txt",
+)
+# ========== User Configs End ==========
+
 # pyright: reportConstantRedefinition = none
 # pyright: reportMissingTypeStubs = none
 # pyright: reportRedeclaration = none
@@ -52,14 +78,20 @@ def b64decodes_safe(s: str):
     except UnicodeDecodeError: raise
     except binascii.Error: raise
 
+def resolveRelFile(url: str):
+    if url.startswith('file://'):
+        basedir = os.path.dirname(os.path.abspath(__file__))
+        return url.replace('/./', '/'+basedir.lstrip('/').replace(os.sep, '/')+'/')
+    return url
+
 DEFAULT_UUID = '8'*8+'-8888'*3+'-'+'8'*12
 
-CLASH2VMESS = {'name': 'ps', 'server': 'add', 'port': 'port', 'uuid': 'id', 
+CLASH2VMESS = {'name': 'ps', 'server': 'add', 'port': 'port', 'uuid': 'id',
               'alterId': 'aid', 'cipher': 'scy', 'network': 'net', 'servername': 'sni'}
 VMESS2CLASH: Dict[str, str] = {}
 for k,v in CLASH2VMESS.items(): VMESS2CLASH[v] = k
 
-VMESS_EXAMPLE = {
+VMESS_TEMPLATE = {
     "v": "2", "ps": "", "add": "0.0.0.0", "port": "0", "aid": "0", "scy": "auto",
     "net": "tcp", "type": "none", "tls": "", "id": DEFAULT_UUID
 }
@@ -70,29 +102,6 @@ CLASH_CIPHER_SS = "aes-128-gcm aes-192-gcm aes-256-gcm aes-128-cfb aes-192-cfb \
         xchacha20 chacha20-ietf-poly1305 xchacha20-ietf-poly1305".split()
 CLASH_SSR_OBFS = "plain http_simple http_post random_head tls1.2_ticket_auth tls1.2_ticket_fastauth".split()
 CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_chain_a auth_chain_b".split()
-
-ABFURLS = (
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers_firstparty.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
-    # "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
-    # "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt",
-    # "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt",
-    # "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    # "https://anti-ad.net/adguard.txt",
-    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
-    "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
-    # "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
-    # "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
-    # "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_lite.txt",
-    "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
-    # "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt",
-)
-
-ABFWHITE = (
-    "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt",
-    "file:///abpwhite.txt",
-)
 
 FAKE_IPS = "8.8.8.8; 8.8.4.4; 4.2.2.2; 4.2.2.1; 114.114.114.114; 127.0.0.1; 0.0.0.0".split('; ')
 FAKE_DOMAINS = ".google.com .github.com".split()
@@ -106,10 +115,8 @@ DEBUG_NO_NODES = os.path.exists("local_NO_NODES")
 DEBUG_NO_DYNAMIC = os.path.exists("local_NO_DYNAMIC")
 DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
 
-STOP = False
-STOP_FAKE_NODES = """vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NEU5QVx1NTFBQ1x1NEYxQVx1ODBEQ1x1NTIyOVx1NTNFQ1x1NUYwMCIsDQogICJhZGQiOiAid2ViLjUxLmxhIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjg4ODg4ODg4LTg4ODgtODg4OC04ODg4LTg4ODg4ODg4ODg4OCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogIndlYi41MS5sYSIsDQogICJwYXRoIjogIi9pbWFnZXMvaW5kZXgvc2VydmljZS1waWMucG5nIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NjU0Rlx1NjExRlx1NjVGNlx1NjcxRlx1RkYwQ1x1NjZGNFx1NjVCMFx1NjY4Mlx1NTA1QyIsDQogICJhZGQiOiAid2ViLjUxLmxhIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImM2ZTg0MDcyLTJlNjktNDkyOC05MGFmLTQzNmIzZmNkMDY2MyIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogIndlYi41MS5sYSIsDQogICJwYXRoIjogIi9pbWFnZXMvaW5kZXgvc2VydmljZS1waWMucG5nIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NTk4Mlx1NjcwOVx1OTcwMFx1ODk4MVx1RkYwQ1x1ODFFQVx1ODg0Q1x1NjQyRFx1NUVGQSIsDQogICJhZGQiOiAid2ViLjUxLmxhIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImUwYzZiM2I3LTlmNWItNGJkNi05YWJmLTI2MDY2M2FhNGYxYiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogIndlYi41MS5sYSIsDQogICJwYXRoIjogIi9pbWFnZXMvaW5kZXgvc2VydmljZS1waWMucG5nIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
+STOP_FAKE_NODES = """vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NjU0Rlx1NjExRlx1NjVGNlx1NjcxRlx1RkYwQ1x1NjZGNFx1NjVCMFx1NjY4Mlx1NTA1QyIsDQogICJhZGQiOiAiMC4wLjAuMCIsDQogICJwb3J0IjogIjEiLA0KICAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NTk4Mlx1NjcwOVx1OTcwMFx1ODk4MVx1RkYwQ1x1ODFFQVx1ODg0Q1x1NjQyRFx1NUVGQSIsDQogICJhZGQiOiAiMC4wLjAuMCIsDQogICJwb3J0IjogIjIiLA0KICAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
 """
 
 class UnsupportedType(Exception): pass
@@ -118,10 +125,8 @@ class NotANode(Exception): pass
 session = requests.Session()
 session.trust_env = False
 if PROXY: session.proxies = {'http': PROXY, 'https': PROXY}
-session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) Clash-verge/v2.0.3 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58'
+session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) Clash-verge/v2.3.1 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58'
 session.mount('file://', FileAdapter())
-    
-exc_queue: List[str] = []
 
 d = datetime.datetime.now()
 if STOP or (d.month, d.day) in ((6, 4), (7, 1), (10, 1)):
@@ -203,8 +208,8 @@ class Node:
         except Exception:
             print("节点 Hash 计算失败！", file=sys.stderr)
             traceback.print_exc(file=sys.stderr)
-            return hash('__ERROR__')
-    
+            return hash(self.url)
+
     def __eq__(self, other: Union['Node', Any]):
         if isinstance(other, self.__class__):
             return hash(self) == hash(other)
@@ -221,7 +226,7 @@ class Node:
         if self.type == 'hy2': self.type = 'hysteria2'
         # === Fix end ===
         if self.type == 'vmess':
-            v = VMESS_EXAMPLE.copy()
+            v = VMESS_TEMPLATE.copy()
             try: v.update(json.loads(b64decodes(dt)))
             except Exception:
                 raise UnsupportedType('vmess', 'SP')
@@ -269,7 +274,7 @@ class Node:
             else:
                 cipher = info
                 passwd = ''
-            self.data = {'name': unquote(name), 'server': server, 
+            self.data = {'name': unquote(name), 'server': server,
                     'port': port, 'type': 'ss', 'password': passwd, 'cipher': cipher}
 
         elif self.type == 'ssr':
@@ -285,7 +290,7 @@ class Node:
                     'protocol': parts[2], 'cipher': parts[3], 'obfs': parts[4],
                     'password': passwd, 'name': ''}
             for kv in info.split('&'):
-                k_v = kv.split('=')
+                k_v = kv.split('=', 1)
                 if len(k_v) != 2:
                     k = k_v[0]
                     v = ''
@@ -301,11 +306,11 @@ class Node:
 
         elif self.type == 'trojan':
             parsed = urlparse(url)
-            self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname, 
+            self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                     'port': parsed.port, 'type': 'trojan', 'password': unquote(parsed.username)} # type: ignore
             if parsed.query:
                 for kv in parsed.query.split('&'):
-                    k,v = kv.split('=')
+                    k,v = kv.split('=', 1)
                     if k in ('allowInsecure', 'insecure'):
                         self.data['skip-cert-verify'] = (v != '0')
                     elif k == 'sni': self.data['sni'] = v
@@ -330,12 +335,12 @@ class Node:
 
         elif self.type == 'vless':
             parsed = urlparse(url)
-            self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname, 
+            self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                     'port': parsed.port, 'type': 'vless', 'uuid': unquote(parsed.username)} # type: ignore
             self.data['tls'] = False
             if parsed.query:
                 for kv in parsed.query.split('&'):
-                    k,v = kv.split('=')
+                    k,v = kv.split('=', 1)
                     if k in ('allowInsecure', 'insecure'):
                         self.data['skip-cert-verify'] = (v != '0')
                     elif k == 'sni': self.data['servername'] = v
@@ -376,7 +381,7 @@ class Node:
 
         elif self.type == 'hysteria2':
             parsed = urlparse(url)
-            self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname, 
+            self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                     'type': 'hysteria2', 'password': unquote(parsed.username)} # type: ignore
             if ':' in parsed.netloc:
                 ports = parsed.netloc.split(':')[1]
@@ -393,7 +398,7 @@ class Node:
                 k = v = ''
                 for kv in parsed.query.split('&'):
                     if '=' in kv:
-                        k,v = kv.split('=')
+                        k,v = kv.split('=', 1)
                     else:
                         v += '&' + kv
                     if k == 'insecure':
@@ -403,7 +408,7 @@ class Node:
                     elif k in ('sni', 'obfs', 'obfs-password'):
                         self.data[k] = v
                     elif k == 'fp': self.data['fingerprint'] = v
-        
+
         else: raise UnsupportedType(self.type)
 
     def format_name(self, max_len=30) -> None:
@@ -419,9 +424,10 @@ class Node:
                 i += 1
                 new = f"{self.data['name']} #{i}"
             self.data['name'] = new
-        
+
     @property
     def isfake(self) -> bool:
+        if STOP: return False
         try:
             if 'server' not in self.data: return True
             if '.' not in self.data['server']: return True
@@ -445,7 +451,7 @@ class Node:
     def url(self) -> str:
         data = self.data
         if self.type == 'vmess':
-            v = VMESS_EXAMPLE.copy()
+            v = VMESS_TEMPLATE.copy()
             for key,val in data.items():
                 if key in CLASH2VMESS:
                     v[CLASH2VMESS[key]] = val
@@ -612,7 +618,7 @@ class Node:
             traceback.print_exc(file=sys.stderr)
             return False
         return True
-    
+
     def supports_clash(self, meta=False) -> bool:
         if meta: return self.supports_meta()
         if self.type == 'vless': return False
@@ -643,6 +649,7 @@ class Source():
         self.content: Union[str, List[str], int] = None
         self.sub: Union[List[str], List[Dict[str, str]]] = None
         self.cfg: Dict[str, Any] = {}
+        self.exc_queue: List[str] = []
 
     def gen_url(self) -> None:
         self.url_source: str
@@ -658,7 +665,6 @@ class Source():
 
     @no_type_check
     def get(self, depth=2) -> None:
-        global exc_queue
         if self.content: return
         try:
             if self.url.startswith("dynamic:"):
@@ -672,18 +678,18 @@ class Source():
                         try:
                             self.cfg['max'] = int(self.cfg['max'])
                         except ValueError:
-                            exc_queue.append("最大节点数限制不是整数！")
+                            self.exc_queue.append("最大节点数限制不是整数！")
                             del self.cfg['max']
                     if 'ignore' in self.cfg:
                         self.cfg['ignore'] = [_ for _ in self.cfg['ignore'].split(',') if _.strip()]
                     self.url = '#'.join(segs[:-1])
-                with session.get(self.url, stream=True) as r:
+                with session.get(resolveRelFile(self.url), stream=True) as r:
                     if r.status_code != 200:
                         if depth > 0 and isinstance(self.url_source, str):
                             exc = f"'{self.url}' 抓取时 {r.status_code}"
                             self.gen_url()
                             exc += "，重新生成链接：\n\t"+self.url
-                            exc_queue.append(exc)
+                            self.exc_queue.append(exc)
                             self.get(depth-1)
                         else:
                             self.content = r.status_code
@@ -695,7 +701,7 @@ class Source():
         except:
             self.content = -2
             exc = "在抓取 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
-            exc_queue.append(exc)
+            self.exc_queue.append(exc)
         else:
             self.parse()
 
@@ -739,7 +745,6 @@ class Source():
         return content
 
     def parse(self) -> None:
-        global exc_queue
         try:
             text = self.content
             if isinstance(text, str):
@@ -756,7 +761,7 @@ class Source():
             else: sub = text # 动态节点抓取后直接传入列表
 
             if 'max' in self.cfg and len(sub) > self.cfg['max']:
-                exc_queue.append(f"此订阅有 {len(sub)} 个节点，最大限制为 {self.cfg['max']} 个，忽略此订阅。")
+                self.exc_queue.append(f"此订阅有 {len(sub)} 个节点，最大限制为 {self.cfg['max']} 个，忽略此订阅。")
                 self.sub = []
             elif sub and 'ignore' in self.cfg:
                 if isinstance(sub[0], str):
@@ -766,7 +771,7 @@ class Source():
                 else: self.sub = sub
             else: self.sub = sub
         except KeyboardInterrupt: raise
-        except: exc_queue.append(
+        except: self.exc_queue.append(
                 "在解析 '"+self.url+"' 时发生错误：\n"+traceback.format_exc())
 
 class DomainTree:
@@ -872,7 +877,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
     for url in ABFURLS:
         url = raw2fastly(url)
         try:
-            res = session.get(url)
+            res = session.get(resolveRelFile(url))
         except requests.exceptions.RequestException as e:
             try:
                 print(f"{url} 下载失败：{e.args[0].reason}")
@@ -895,7 +900,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
     for url in ABFWHITE:
         url = raw2fastly(url)
         try:
-            res = session.get(url)
+            res = session.get(resolveRelFile(url))
         except requests.exceptions.RequestException as e:
             try:
                 print(f"{url} 下载失败：{e.args[0].reason}")
@@ -943,7 +948,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
     print(f"共有 {len(rules)} 条规则")
 
 def main():
-    global exc_queue, merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
+    global merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
     if DEBUG_NO_NODES:
         # !!! JUST FOR DEBUGING !!!
@@ -1048,11 +1053,12 @@ def main():
                     print("失败！")
                     traceback.print_exc()
                 else: print("完成！")
+            for exc in sources_obj[i].exc_queue:
+                print(exc)
+            sources_obj[i].exc_queue = []
         except KeyboardInterrupt:
             print("正在退出...")
             break
-        while exc_queue:
-            print(exc_queue.pop(0), file=sys.stderr, flush=True)
 
     if STOP:
         merged = {}
@@ -1087,7 +1093,7 @@ def main():
 
     with open("config.yml", encoding="utf-8") as f:
         conf: Dict[str, Any] = yaml.full_load(f)
-    
+
     rules: Dict[str, str] = {}
     if DEBUG_NO_ADBLOCK:
         # !!! JUST FOR DEBUGING !!!
