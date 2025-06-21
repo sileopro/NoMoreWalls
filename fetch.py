@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # ========== User Configs Begin ==========
 # 以下是可以自定义的配置：
-STOP = False          # 暂停抓取节点
+STOP = False              # 暂停抓取节点
+NAME_SHOW_SRC  = False    # 在节点名称前显示所属订阅编号 (订阅见 list_result.csv)
 ABFURLS = (           # Adblock 规则黑名单
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers_firstparty.txt",
@@ -412,18 +413,19 @@ class Node:
         else: raise UnsupportedType(self.type)
 
     def format_name(self, max_len=30) -> None:
-        self.data['name'] = self.name
+        name = self.name
         for word in BANNED_WORDS:
-            self.data['name'] = self.data['name'].replace(word, '*'*len(word))
-        if len(self.data['name']) > max_len:
-            self.data['name'] = self.data['name'][:max_len]+'...'
-        if self.data['name'] in Node.names:
+            name = name.replace(word, '*'*len(word))
+        if len(name) > max_len:
+            name = name[:max_len]+'...'
+        if name in Node.names:
             i = 0
-            new: str = self.data['name']
+            new = name
             while new in Node.names:
                 i += 1
-                new = f"{self.data['name']} #{i}"
-            self.data['name'] = new
+                new = f"{name} #{i}"
+            name = new
+        self.data['name'] = name
 
     @property
     def isfake(self) -> bool:
@@ -1065,14 +1067,17 @@ def main():
         for nid, nd in enumerate(STOP_FAKE_NODES.splitlines()):
             merged[nid] = Node(nd)
 
+    elif NAME_SHOW_SRC:
+        for hashp, p in merged.items():
+            if hashp in used:
+                src = ','.join([str(_) for _ in sorted(list(used[hashp]))])
+                p.data['name'] = src+'|'+p.data['name']
+
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
     unsupports = 0
     for hashp, p in merged.items():
         try:
-            if hashp in used:
-                # 注意：这一步也会影响到下方的 Clash 订阅，不用再执行一遍！
-                p.data['name'] = ','.join([str(_) for _ in sorted(list(used[hash(p)]))])+'|'+p.data['name']
             if p.supports_ray():
                 try:
                     txt += p.url + '\n'
@@ -1108,7 +1113,7 @@ def main():
     try:
         snip_conf = conf['NoMoreWalls']
     except KeyError:
-        print("未设置片段配置：")
+        print("未设置片段配置：", file=sys.stderr)
         traceback.print_exc()
     else:
         del conf['NoMoreWalls']
