@@ -1670,16 +1670,6 @@ proxies:
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
-  port: 80
-  server: sinavm.sinavm.ir
-  skip-cert-verify: false
-  sni: sinavm.sinavm.ir
-  tls: false
-  type: hysteria2
-- name: '@  #1'
-  obfs: salamander
-  obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
-  password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
   port: 443
   server: sinavm.soft10.ir
   skip-cert-verify: false
