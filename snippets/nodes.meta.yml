@@ -1726,14 +1726,6 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66🇫🇷'
-  password: dongtaiwang.com
-  port: 31180
-  server: 51.159.111.32
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
 - name: ff_kikor-11726
   obfs: salamander
   obfs-password: qilebcibeMO3IVBnfqal3i
@@ -1830,6 +1822,14 @@ proxies:
   port: 30073
   server: 45.147.201.231
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66🇫🇷'
+  password: dongtaiwang.com
+  port: 31180
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: apple.com
   tls: false
   type: hysteria2
 - name: 'Channel id: @ShadowProxy66🇺🇸 #3'
