@@ -1658,7 +1658,31 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: 'Channel id: @ShadowProxy66🇭🇰'
+- name: '@NoForcedHeaven'
+  obfs: salamander
+  obfs-password: 9242a8bf
+  password: a2678c97b8d79059
+  port: 443
+  server: 46.62.152.236
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66'
+  password: dongtaiwang.com
+  port: 50850
+  server: 45.129.2.108
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66 #1'
+  password: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9
+  port: 8443
+  server: 416910ec-syf5s0-szvfpn-laev.hy2.gotochinatown.net
+  sni: 416910ec-syf5s0-szvfpn-laev.hy2.gotochinatown.net
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66 #2'
   password: nfsn666
   port: 8888
   server: hk.nfsn666.gq
