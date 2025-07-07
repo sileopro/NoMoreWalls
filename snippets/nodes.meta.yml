@@ -1691,7 +1691,7 @@ proxies:
   sni: aus.pagate.top
   tls: false
   type: hysteria2
-- name: '@v2ray_configs_poolHong KongHo...'
+- name: 'Channel id: @ShadowProxy66'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -1964,14 +1964,6 @@ proxies:
   port: 9444
   server: 4n0nymou3.ir
   sni: www.speedtest.net
-  tls: false
-  type: hysteria2
-- name: '@v2ray_configs_poolHong KongHo... #1'
-  password: nfsn666
-  port: 8888
-  server: hk.nfsn666.gq
-  skip-cert-verify: true
-  sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
 - name: '@Filter_breaker | Finland'
