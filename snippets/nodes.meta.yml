@@ -1660,7 +1660,7 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: 东京
+- name: ن¸œن؛¬
   password: 37d19f09-5fa4-4ad0-8484-55050b582a29
   port: 2056
   server: zp1.eyucdn.xyz
@@ -1706,7 +1706,7 @@ proxies:
   sni: ali.xiao666666.site
   tls: false
   type: hysteria2
-- name: 18@V2aryng_vpn
+- name: ' @V2RayTheKyo    '
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -1716,7 +1716,7 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: 25@V2aryng_vpn
+- name: ' @V2RayTheKyo     #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -1741,12 +1741,13 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66 #3'
+- name: ' @V2RayTheKyo     #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 35000
   server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
@@ -1866,6 +1867,70 @@ proxies:
   server: 40.233.121.211
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy '
+  password: 59f0b1e2-99ce-43f9-8384-36879ed3a0ba
+  port: 10091
+  server: 104.224.152.40
+  skip-cert-verify: true
+  sni: yahoo.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy  #1'
+  password: 59f0b1e2-99ce-43f9-8384-36879ed3a0ba
+  port: 10098
+  server: 154.16.27.64
+  skip-cert-verify: true
+  sni: yahoo.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy  #2'
+  password: 59f0b1e2-99ce-43f9-8384-36879ed3a0ba
+  port: 10087
+  server: 154.85.20.71
+  skip-cert-verify: true
+  sni: yahoo.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy  #3'
+  password: 59f0b1e2-99ce-43f9-8384-36879ed3a0ba
+  port: 10090
+  server: 156.231.141.17
+  skip-cert-verify: true
+  sni: yahoo.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy  #4'
+  password: 59f0b1e2-99ce-43f9-8384-36879ed3a0ba
+  port: 10091
+  server: 205.198.87.97
+  skip-cert-verify: true
+  sni: yahoo.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy  #5'
+  password: 59f0b1e2-99ce-43f9-8384-36879ed3a0ba
+  port: 10089
+  server: 45.196.233.40
+  skip-cert-verify: true
+  sni: yahoo.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy  #6'
+  password: 59f0b1e2-99ce-43f9-8384-36879ed3a0ba
+  port: 10094
+  server: 45.196.238.244
+  skip-cert-verify: true
+  sni: yahoo.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy  #7'
+  password: 59f0b1e2-99ce-43f9-8384-36879ed3a0ba
+  port: 10081
+  server: 45.39.198.230
+  skip-cert-verify: true
+  sni: yahoo.com
   tls: false
   type: hysteria2
 - name: ' @game_file2020'
@@ -2470,7 +2535,7 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- name: '@v2rayng_fars  Telegram'
+- name: ' @V2RayTheKyo     #3'
   obfs: salamander
   obfs-password: mkv_SEfr-salamdash
   password: user10.thisismeSUperkl19201
@@ -2497,7 +2562,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '@v2rayng_fars  Telegram #3'
+- name: ' @V2RayTheKyo     #4'
   obfs: salamander
   obfs-password: mkv_SEfr-salamdash
   password: user15.SEFRlolpip192761
