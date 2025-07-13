@@ -1658,24 +1658,7 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: NetAccount
-  obfs: salamander
-  obfs-password: rPvCrCom7ETCNOvA
-  password: 0c4c1a89-5645-4fc2-9e3b-ab09aa44e933
-  port: 13563
-  server: 62.72.163.159
-  sni: h2.gzcloud.shop
-  tls: false
-  type: hysteria2
-- name: 'Channel id: @ShadowProxy66 '
-  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  port: 30300
-  server: 40.233.121.211
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 未命名
+- name: 🇯🇵日本
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy17.liangxin1.xyz
@@ -1683,7 +1666,7 @@ proxies:
   sni: www.apple.com.cn
   tls: false
   type: hysteria2
-- name: '未命名 #1'
+- name: 未命名
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy2.liangxin1.xyz
@@ -1691,7 +1674,7 @@ proxies:
   sni: www.tesla.cn
   tls: false
   type: hysteria2
-- name: '未命名 #2'
+- name: '未命名 #1'
   password: 37d19f09-5fa4-4ad0-8484-55050b582a29
   port: 2056
   server: zp1.eyucdn.xyz
@@ -1699,7 +1682,7 @@ proxies:
   sni: zp1.eyujichang.xyz
   tls: false
   type: hysteria2
-- name: '未命名 #3'
+- name: '未命名 #2'
   password: 37d19f09-5fa4-4ad0-8484-55050b582a29
   port: 2056
   server: zp2.eyucdn.xyz
@@ -1723,20 +1706,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66  #1'
+- name: 'Channel id: @ShadowProxy66 '
   password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
   port: 47262
   server: 40.233.73.221
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'NetAccount #2'
-  password: 928a3318-b103-4f5f-ac80-1efd6f05d3d7
-  port: 50000
-  server: 47.238.98.245
-  skip-cert-verify: true
-  sni: ali.xiao666666.site
   tls: false
   type: hysteria2
 - name: ' Telegram : @Viturey'
@@ -1766,7 +1741,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '未命名 #4'
+- name: '未命名 #3'
   password: RKrGw4dSUwK3YAvqdQI8tcqNl0
   port: 34060
   server: 35.94.124.236
@@ -1774,14 +1749,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '未命名 #5'
+- name: '未命名 #4'
   password: Wo9rLCYw6gzcfTgIu11mhBVciVs
   port: 29282
   server: 47.74.34.102
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '未命名 #6'
+- name: '未命名 #5'
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -1789,14 +1764,14 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '未命名 #7'
+- name: '未命名 #6'
   password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c
   port: 63518
   server: ovo.5188666.xyz
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '未命名 #8'
+- name: '未命名 #7'
   password: b866d83a-d301-4270-b699-40f322bf52fb
   port: 443
   server: 154.85.19.63
@@ -1836,7 +1811,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '未命名 #9'
+- name: '未命名 #8'
   password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
   port: 10086
   server: asg.pagate.top
@@ -1865,7 +1840,7 @@ proxies:
   sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
-- name: '未命名 #10'
+- name: '未命名 #9'
   password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI
   port: 10264
   server: 13.212.75.22
@@ -2321,6 +2296,16 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
+- name: ' @VPNHubMaRKeT   @VpnHubMarKeT...'
+  obfs: salamander
+  obfs-password: '@VPNHubMaRKeT'
+  password: '@VPNHubMaRKeT'
+  port: 443
+  server: 202.78.166.190
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '@V2rayNG3 #4'
   obfs: salamander
   obfs-password: '@azadi_az_inja_migzare'
@@ -2377,6 +2362,15 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
+- name: ' @VPNHubMaRKeT   @VpnHubMarKeT... #1'
+  obfs: salamander
+  obfs-password: tel:@VPNHubMaRKeT
+  password: VPNHubMaRKeT
+  port: 9999
+  server: 3.123.253.70
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: ' vpnowl@'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -2417,6 +2411,15 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: '@Filter_breaker_206.71.158.40'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b5c1b004cd051ef2f6ffedda2e47d538
+  port: 33331
+  server: 206.71.158.40
+  sni: jnir-1.pichondan.com
+  tls: false
+  type: hysteria2
 - name: '@Filter_breaker | United State...'
   password: c7d8e9f0-1234-5bcd-6abc-7890abcdef12
   port: 443
@@ -2429,6 +2432,16 @@ proxies:
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 40.233.70.163
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: ' @VpnHubMarKeT  @VpnHubMarKeT '
+  obfs: salamander
+  obfs-password: VpnHubMarKeT
+  password: dbe172973c29534833c6fae3d706d9e7
+  port: 443
+  server: 91.217.119.51
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
