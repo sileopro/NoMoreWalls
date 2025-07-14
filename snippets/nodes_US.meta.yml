@@ -1314,14 +1314,6 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 美国10 付费推荐：https://dafei.de
-  password: 27e473f8-d610-4b04-bdf7-d0c39b47c897
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: USA-Hysteria2-@Filter_breaker
   password: 627712cf-d0e1-4545-81fb-241e7fda0284
   port: 443
