@@ -1706,7 +1706,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66 '
+- name: 'Channel id: @ShadowProxy66🇺🇸'
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66  #2'
   password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
   port: 47262
   server: 40.233.73.221
@@ -1723,7 +1730,7 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: '  @V2xay'
+- name: '  @V2xay #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -1733,7 +1740,7 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: 'Telegram : CaptalVpn'
+- name: Telegram@vmessorg
   password: JSC7GnvDM4mIitnCZXQo8IKSPs
   port: 29713
   server: 13.250.121.168
@@ -1787,7 +1794,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Telegram : CaptalVpn #1'
+- name: 'Telegram@vmessorg #1'
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 150.230.30.237
@@ -1799,6 +1806,30 @@ proxies:
   password: dongtaiwang.com
   port: 4710
   server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram: @IP_CF #4'
+  password: dongtaiwang.com
+  port: 50850
+  server: 45.129.2.108
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '  @V2xay #3'
+  password: dongtaiwang.com
+  port: 30033
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '@drakvpn🐉'
+  password: dongtaiwang.com
+  port: 12904
+  server: 46.17.41.5
   skip-cert-verify: true
   sni: apple.com
   tls: false
@@ -1815,6 +1846,15 @@ proxies:
   password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
   port: 10086
   server: asg.pagate.top
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66  #14'
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: ff35d96a-5065-4ed2-8a9e-aaa279c1efb5
+  port: 31008
+  server: 45.135.135.229
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '@meli_proxyy #18'
@@ -1848,7 +1888,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 'Telegram : CaptalVpn #2'
+- name: 'Telegram@vmessorg #2'
   password: yoP8tOtEhMTSBUPY9LwnHABvFE
   port: 14933
   server: 18.136.211.127
@@ -2220,13 +2260,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66🇺🇸'
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '10 https://dafei.de #1'
   password: 67828a6e-0144-4e57-8169-2447a3dd2e61
   port: 45000
@@ -2466,14 +2499,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 'Telegram: @IP_CF #4'
-  password: dongtaiwang.com
-  port: 50850
-  server: 45.129.2.108
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '@V2rayNG3 #8'
   password: dongtaiwang.com
   port: 50717
@@ -2489,27 +2514,11 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: hibyevpn--IR-12 @HiByeVPNN
-  password: dongtaiwang.com
-  port: 30033
-  server: 46.17.41.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: hibyevpn--IR-14 @HiByeVPNN
   password: dongtaiwang.com
   port: 12904
   server: 46.17.41.5
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '@drakvpn🐉'
-  password: dongtaiwang.com
-  port: 12904
-  server: 46.17.41.5
-  skip-cert-verify: true
-  sni: apple.com
   tls: false
   type: hysteria2
 - name: '@Filter_breaker | Germany'
@@ -2564,7 +2573,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '  @V2xay #1'
+- name: '  @V2xay #4'
   obfs: salamander
   obfs-password: Djxsjduwue
   password: k1sCJ4SJQj
@@ -2607,7 +2616,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '  @V2xay #2'
+- name: '  @V2xay #5'
   obfs: salamander
   obfs-password: The_Sefr-salamdash
   password: user12.myserverSEFR097
