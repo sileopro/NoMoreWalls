@@ -2537,6 +2537,33 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '@v2ray313  '
+  obfs: salamander
+  obfs-password: v2raybluecrystal2
+  password: jvTJxLMlcl
+  port: 20627
+  server: p4.3dfigures.ir
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '@v2ray313   #1'
+  obfs: salamander
+  obfs-password: v2raybluecrystal
+  password: jvTJxLMlcl
+  port: 30452
+  server: p4.3dfigures.ir
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '@v2ray313   #2'
+  obfs: salamander
+  obfs-password: v2raybluecrystal3
+  password: jvTJxLMlcl
+  port: 56116
+  server: p4.3dfigures.ir
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '  @V2xay #1'
   obfs: salamander
   obfs-password: Djxsjduwue
