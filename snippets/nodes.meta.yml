@@ -2268,7 +2268,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '@Moft_Vpn '
+- name: '  @V2rayNG_CaFe |   '
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: 6E7ZX07Att
@@ -2277,7 +2277,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@Moft_Vpn  #1'
+- name: '  @V2rayNG_CaFe |    #1'
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: 6E7ZX07Att
@@ -2400,7 +2400,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@HIBYEVPNN'
+- name: '  @V2rayNG_CaFe |    #2'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
