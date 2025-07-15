@@ -1740,7 +1740,7 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: Telegram@vmessorg
+- name: 'Telegram : CaptalVpn'
   password: JSC7GnvDM4mIitnCZXQo8IKSPs
   port: 29713
   server: 13.250.121.168
@@ -1794,7 +1794,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Telegram@vmessorg #1'
+- name: 'Telegram : CaptalVpn #1'
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 150.230.30.237
@@ -1818,7 +1818,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '  @V2xay #3'
+- name: '   @ProxyBeat  ///  259'
   password: dongtaiwang.com
   port: 30033
   server: 46.17.41.217
@@ -1888,7 +1888,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 'Telegram@vmessorg #2'
+- name: 'Telegram : CaptalVpn #2'
   password: yoP8tOtEhMTSBUPY9LwnHABvFE
   port: 14933
   server: 18.136.211.127
@@ -2016,6 +2016,70 @@ proxies:
   server: us3do.interld123456789.com
   skip-cert-verify: true
   sni: 1231231.1234567890spcloud.com
+  tls: false
+  type: hysteria2
+- name: Telegram @v2rayng_fars
+  password: 5424bc48-fd4a-4a17-b576-973423c3c33b
+  port: 26623
+  server: yjjdbd.yunjijd.xyz
+  skip-cert-verify: true
+  sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS
+  tls: false
+  type: hysteria2
+- name: 'Telegram @v2rayng_fars #1'
+  password: 5424bc48-fd4a-4a17-b576-973423c3c33b
+  port: 26823
+  server: yjjddg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS
+  tls: false
+  type: hysteria2
+- name: 'Telegram @v2rayng_fars #2'
+  password: 5424bc48-fd4a-4a17-b576-973423c3c33b
+  port: 26123
+  server: yjjdels.yunjijd.xyz
+  skip-cert-verify: true
+  sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS
+  tls: false
+  type: hysteria2
+- name: 'Telegram @v2rayng_fars #3'
+  password: 5424bc48-fd4a-4a17-b576-973423c3c33b
+  port: 26723
+  server: yjjdhg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS
+  tls: false
+  type: hysteria2
+- name: 'Telegram @v2rayng_fars #4'
+  password: 5424bc48-fd4a-4a17-b576-973423c3c33b
+  port: 26923
+  server: yjjdhl.yunjijd.xyz
+  skip-cert-verify: true
+  sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS
+  tls: false
+  type: hysteria2
+- name: 'Telegram @v2rayng_fars #5'
+  password: 5424bc48-fd4a-4a17-b576-973423c3c33b
+  port: 26523
+  server: yjjdjnd.yunjijd.xyz
+  skip-cert-verify: true
+  sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS
+  tls: false
+  type: hysteria2
+- name: 'Telegram @v2rayng_fars #6'
+  password: 5424bc48-fd4a-4a17-b576-973423c3c33b
+  port: 26423
+  server: yjjdrb.yunjijd.xyz
+  skip-cert-verify: true
+  sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS
+  tls: false
+  type: hysteria2
+- name: 'Telegram @v2rayng_fars #7'
+  password: 5424bc48-fd4a-4a17-b576-973423c3c33b
+  port: 26323
+  server: yjjdxg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS
   tls: false
   type: hysteria2
 - name: ' @game_file2020'
@@ -2214,38 +2278,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: USA-Hysteria2-@Filter_breaker
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 108.181.23.241
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'USA-Hysteria2-@Filter_breaker #1'
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 108.181.23.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'USA-Hysteria2-@Filter_breaker #2'
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 108.181.23.255
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'USA-Hysteria2-@Filter_breaker #3'
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 204.10.194.86
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '10 https://dafei.de #1'
   password: 67828a6e-0144-4e57-8169-2447a3dd2e61
   port: 45000
@@ -2254,7 +2286,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '  @V2rayNG_CaFe |   '
+- name: '@Moft_Vpn '
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: 6E7ZX07Att
@@ -2263,7 +2295,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '  @V2rayNG_CaFe |    #1'
+- name: '@Moft_Vpn  #1'
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: 6E7ZX07Att
@@ -2289,7 +2321,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'https://t.me/V2ry_Proxy #1'
+- name: '@meli_proxyy #10'
   password: 7fae5f8e-7963-4cbe-ae1a-31cd952573a2
   port: 55000
   server: 139.185.36.59
@@ -2319,22 +2351,6 @@ proxies:
   server: 129.153.59.124
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy '
-  password: 867f512f-93d2-4344-853c-50965de9b103
-  port: 55215
-  server: shy38.zqjc.cloud
-  skip-cert-verify: false
-  sni: shy38.zqjc.cloud
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy  #1'
-  password: 867f512f-93d2-4344-853c-50965de9b103
-  port: 55215
-  server: shy42.zqjc.cloud
-  skip-cert-verify: false
-  sni: shy42.zqjc.cloud
   tls: false
   type: hysteria2
 - name: '10 https://dafei.de #2'
@@ -2402,7 +2418,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '  @V2rayNG_CaFe |    #2'
+- name: '  @V2rayNG_CaFe |   '
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -2539,43 +2555,6 @@ proxies:
   server: 62.60.231.189
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'Telegram= @vaslvip '
-  obfs: salamander
-  obfs-password: t8tblKOIMXQ2ydZNiDTwj8ocAqp9FhkA
-  password: j6dnxwZGg1
-  port: 45330
-  server: 164.92.241.193
-  skip-cert-verify: true
-  sni: canva.com
-  tls: false
-  type: hysteria2
-- name: '@v2ray313  '
-  obfs: salamander
-  obfs-password: v2raybluecrystal2
-  password: jvTJxLMlcl
-  port: 20627
-  server: p4.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '@v2ray313   #1'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: jvTJxLMlcl
-  port: 30452
-  server: p4.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '@v2ray313   #2'
-  obfs: salamander
-  obfs-password: v2raybluecrystal3
-  password: jvTJxLMlcl
-  port: 56116
-  server: p4.3dfigures.ir
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '  @V2xay #4'
