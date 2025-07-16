@@ -1947,14 +1947,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10 https://dafei.de
-  password: 27e473f8-d610-4b04-bdf7-d0c39b47c897
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: '      @Config_Rayegan'
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 30000
@@ -2223,14 +2215,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10 https://dafei.de #1'
-  password: 67828a6e-0144-4e57-8169-2447a3dd2e61
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: '@Moft_Vpn '
   obfs: salamander
   obfs-password: v2raybluecrystal
@@ -2272,14 +2256,6 @@ proxies:
   server: 129.153.59.124
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10 https://dafei.de #2'
-  password: 8a104bc2-a8d1-4f38-8c29-17176a68b7d5
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
   tls: false
   type: hysteria2
 - name: ' @VPNHubMaRKeT   @VpnHubMarKeT...'
@@ -2556,7 +2532,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '@Moft_Vpn   1'
+- name: 'Telegram : @Ezaccess1 Server :... #5'
   obfs: salamander
   obfs-password: The_Sefr-salamdash
   password: user11.serverTest1234
@@ -2571,15 +2547,6 @@ proxies:
   password: user12.myserverSEFR097
   port: 443
   server: knock.zone1.center
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '@Moft_Vpn   4'
-  obfs: salamander
-  obfs-password: mkv_SEfr-salamdash
-  password: user15.SEFRlolpip192761
-  port: 443
-  server: shade.zone1.center
   skip-cert-verify: false
   tls: false
   type: hysteria2
