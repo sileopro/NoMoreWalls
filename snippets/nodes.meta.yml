@@ -1729,7 +1729,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '@meli_proxyy #2'
+- name: 'Telegram : @Ezaccess1 Server :...'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -1817,6 +1817,14 @@ proxies:
   server: 108.181.5.130
   skip-cert-verify: true
   sni: apple.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy '
+  password: dongtaiwang.com
+  port: 50850
+  server: 45.129.2.108
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 'Telegram: @IP_CF #4'
@@ -2340,7 +2348,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@warp_city #1'
+- name: 'Telegram : @Ezaccess1 Server :... #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2350,7 +2358,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '@Filter_breaker | United Kingd...'
+- name: 'Telegram : @Ezaccess1 Server :... #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2360,7 +2368,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '  : injastvpn@'
+- name: 'Telegram : @Ezaccess1 Server :... #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
