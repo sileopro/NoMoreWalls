@@ -1729,7 +1729,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: ' @FreakConfig'
+- name: 'Telegram : @Ezaccess1 Server :...'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -1903,106 +1903,6 @@ proxies:
   server: 18.136.211.127
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: Telegram:@config_proxy 😍
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02b3e954-d056-4668-89ba-71dabdcef0e4
-  port: 20857
-  server: nexiabx.688997.xyz
-  skip-cert-verify: true
-  sni: nexiabx.688997.xyz
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy '
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02b3e954-d056-4668-89ba-71dabdcef0e4
-  port: 20557
-  server: nexiadg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiadg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy  #1'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02b3e954-d056-4668-89ba-71dabdcef0e4
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy  #3'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02b3e954-d056-4668-89ba-71dabdcef0e4
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy  #4'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02b3e954-d056-4668-89ba-71dabdcef0e4
-  port: 20457
-  server: nexiahl.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahl.688997.xyz
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy  #5'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02b3e954-d056-4668-89ba-71dabdcef0e4
-  port: 20157
-  server: nexiamg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiamg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy  #6'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02b3e954-d056-4668-89ba-71dabdcef0e4
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy  #7'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02b3e954-d056-4668-89ba-71dabdcef0e4
-  port: 20957
-  server: nexiateq.688997.xyz
-  skip-cert-verify: true
-  sni: nexiateq.688997.xyz
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy  #8'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02b3e954-d056-4668-89ba-71dabdcef0e4
-  port: 20057
-  server: nexiaxg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaxg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy  #9'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02b3e954-d056-4668-89ba-71dabdcef0e4
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
   tls: false
   type: hysteria2
 - name: '@V2rayNG3'
@@ -2434,7 +2334,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@warp_city #1'
+- name: 'Telegram : @Ezaccess1 Server :... #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2444,7 +2344,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '@Filter_breaker | United Kingd...'
+- name: 'Telegram : @Ezaccess1 Server :... #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2454,7 +2354,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '  @vpns_land |   '
+- name: 'Telegram : @Ezaccess1 Server :... #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2649,6 +2549,15 @@ proxies:
   password: user10.thisismeSUperkl19201
   port: 443
   server: shade.zone1.center
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 'Telegram : @Ezaccess1 Server :... #5'
+  obfs: salamander
+  obfs-password: The_Sefr-salamdash
+  password: user11.serverTest1234
+  port: 443
+  server: knock.zone1.center
   skip-cert-verify: false
   tls: false
   type: hysteria2
