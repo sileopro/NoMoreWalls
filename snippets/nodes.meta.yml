@@ -1915,6 +1915,96 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
+- name: 'TEL > @SaghiVpnXBOT- '
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 39c3ffc8-5861-4fd5-a35d-8108471234fa
+  port: 20857
+  server: nexiabx.688997.xyz
+  skip-cert-verify: true
+  sni: nexiabx.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'TEL > @SaghiVpnXBOT-  #1'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 39c3ffc8-5861-4fd5-a35d-8108471234fa
+  port: 20557
+  server: nexiadg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiadg.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'TEL > @SaghiVpnXBOT-  #2'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 39c3ffc8-5861-4fd5-a35d-8108471234fa
+  port: 20357
+  server: nexiahg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiahg.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'TEL > @SaghiVpnXBOT-  #3'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 39c3ffc8-5861-4fd5-a35d-8108471234fa
+  port: 20457
+  server: nexiahl.688997.xyz
+  skip-cert-verify: true
+  sni: nexiahl.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'TEL > @SaghiVpnXBOT-  #4'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 39c3ffc8-5861-4fd5-a35d-8108471234fa
+  port: 20157
+  server: nexiamg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiamg.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'TEL > @SaghiVpnXBOT-  #5'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 39c3ffc8-5861-4fd5-a35d-8108471234fa
+  port: 20257
+  server: nexiarb.688997.xyz
+  skip-cert-verify: true
+  sni: nexiarb.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'TEL > @SaghiVpnXBOT-  #6'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 39c3ffc8-5861-4fd5-a35d-8108471234fa
+  port: 20957
+  server: nexiateq.688997.xyz
+  skip-cert-verify: true
+  sni: nexiateq.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'TEL > @SaghiVpnXBOT-  #7'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 39c3ffc8-5861-4fd5-a35d-8108471234fa
+  port: 20057
+  server: nexiaxg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiaxg.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'TEL > @SaghiVpnXBOT-  #8'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 39c3ffc8-5861-4fd5-a35d-8108471234fa
+  port: 20657
+  server: nexiayg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiayg.688997.xyz
+  tls: false
+  type: hysteria2
 - name: Telegram @v2rayng_fars
   password: 5424bc48-fd4a-4a17-b576-973423c3c33b
   port: 26623
