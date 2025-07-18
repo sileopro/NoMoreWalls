@@ -32,7 +32,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: RU_speednode_0071
+- name: RU_speednode_0038
   network: ws
   port: 8880
   server: 185.174.138.213
@@ -46,7 +46,7 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /?ed=2560
-- name: RU_speednode_0072
+- name: RU_speednode_0039
   network: ws
   port: 8880
   server: 176.124.223.213
@@ -60,22 +60,7 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: RU_speednode_0073
-  network: ws
-  port: 2053
-  server: 45.142.120.192
-  servername: 019309B7.XyZ0.PaGeS.dEV
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
-  ws-opts:
-    headers:
-      Host: 019309B7.XyZ0.PaGeS.dEV
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- name: RU_speednode_0074
+- name: RU_speednode_0040
   network: ws
   password: tg-fq521free
   port: 443
