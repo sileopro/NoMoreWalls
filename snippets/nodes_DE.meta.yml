@@ -109,7 +109,7 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- name: 'Telegram : @Ezaccess1 Server :... #5'
+- name: 'Telegram : @Ezaccess1 Server :... #3'
   obfs: salamander
   obfs-password: The_Sefr-salamdash
   password: user11.serverTest1234
