@@ -2346,6 +2346,15 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
+- name: (@vmesskhodam)
+  obfs: salamander
+  obfs-password: mkv_SEfr-salamdash
+  password: user10.thisismeSUperkl19201
+  port: 443
+  server: shade.zone1.center
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: 'Telegram : @Ezaccess1 Server :... #3'
   obfs: salamander
   obfs-password: The_Sefr-salamdash
