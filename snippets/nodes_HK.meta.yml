@@ -13,6 +13,14 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- name: 'Channel id: @ShadowProxy66 🇭🇰'
+  password: nfsn666
+  port: 8888
+  server: 45.207.222.138
+  skip-cert-verify: true
+  sni: hk.nfsn666.gq
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
