@@ -457,21 +457,6 @@ proxies:
   sni: 61209291-svc1s0-t28b6o-ef48.sj.gotochinatown.net
   tls: true
   type: socks5
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  delay: 861
-  down: '55'
-  name: 🇺🇸41 |  4.7MB/s|48%|Openai
-  obfs: ''
-  port: 11512
-  protocol: ''
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '11'
 - delay: 1142
   down: ''
   fingerprint: ''

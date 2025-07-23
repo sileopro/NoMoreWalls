@@ -11,21 +11,6 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   up: ''
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  delay: 1086
-  down: '100'
-  name: 🇫🇷2 |  2.2MB/s|25%|Youtube|Ope...
-  obfs: ''
-  port: 15010
-  protocol: ''
-  server: 195.154.200.40
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '100'
 - client-fingerprint: chrome
   name: 🇫🇷3 |  4.1MB/s|36%|Openai
   network: ws
