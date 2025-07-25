@@ -2288,7 +2288,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '      @Config_Rayegan'
+- name: '  : Viturey@ #1'
   password: dongtaiwang.com
   port: 30033
   server: 46.17.41.217
