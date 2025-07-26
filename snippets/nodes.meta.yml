@@ -1892,14 +1892,6 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '@ata_connect       '
-  password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
-  port: 30000
-  server: 79.72.81.183
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: 'TEL > @SaghiVpnXBOT- '
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
