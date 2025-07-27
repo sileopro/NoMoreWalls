@@ -1860,14 +1860,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10 https://dafei.de
-  password: 27e473f8-d610-4b04-bdf7-d0c39b47c897
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: 'TEL > @SaghiVpnXBOT- '
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
@@ -1985,28 +1977,12 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10 https://dafei.de #1'
-  password: 527a7c04-9a2c-4fdb-aa18-37337e62e917
-  port: 45000
-  server: 107.174.41.101
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: '@SaghiVpnX[]'
   password: 568b2070-e528-444e-9cc9-3ec3debe17bf
   port: 443
   server: jp03.poke-mon.xyz
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10 https://dafei.de #2'
-  password: 67828a6e-0144-4e57-8169-2447a3dd2e61
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
   tls: false
   type: hysteria2
 - name: 'v2raybluecrystal2 #1'
@@ -2054,20 +2030,18 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Telegram:@config_proxy '
-  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  port: 54530
-  server: 129.153.59.124
-  skip-cert-verify: true
-  sni: www.bing.com
+- name: '@v2ray_configs_pool'
+  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
+  port: 11861
+  server: yume-se.legeth.xyz
+  skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10 https://dafei.de #3'
-  password: 8a104bc2-a8d1-4f38-8c29-17176a68b7d5
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
+- name: '@v2ray_configs_pool #1'
+  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
+  port: 11948
+  server: yume-se.legeth.xyz
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: telegram  @v2rayNG_Matsuri
@@ -2245,7 +2219,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@SaghiVpnX[] #2'
+- name: '@v2ray_configs_pool #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2260,6 +2234,26 @@ proxies:
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 36600
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '@v2ray_configs_pool #2'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35000
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '@v2ray_configs_pool #4'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36300
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
@@ -2371,30 +2365,12 @@ proxies:
   sni: ushub.xg-hub.icu
   tls: false
   type: hysteria2
-- name: 'Telegram:@config_proxy  #1'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: cb36d691-0349-4d9a-a040-1e0b3dfb5c12
-  port: 35300
-  server: flyrb.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxg.flylink.cyou
-  tls: false
-  type: hysteria2
 - name: 'Telegram@vmessorg #1'
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 150.230.30.237
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10 https://dafei.de #4'
-  password: dac2d4dd-9a4d-4eb0-92a6-028532caed52
-  port: 45000
-  server: 107.174.41.101
-  skip-cert-verify: true
-  sni: www.apple.com
   tls: false
   type: hysteria2
 - name: ' @VpnHubMarKeT  @VpnHubMarKeT '
@@ -2645,12 +2621,28 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
+- name: '@v2ray_configs_pool #5'
+  password: wl4HYN9PPKs8d8IzGIt4yKqt0
+  port: 53348
+  server: 47.74.34.102
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 'Telegram@vmessorg #2'
   password: yoP8tOtEhMTSBUPY9LwnHABvFE
   port: 14933
   server: 18.136.211.127
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '@SaghiVpnX[] #3'
+  obfs: salamander
+  obfs-password: AwsdFRD453tG
+  password: zz0IPHmeNp
+  port: 48009
+  server: tamasha.asrenet.ru
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 'Channel id: @ShadowProxy66🇺🇸 #1'
