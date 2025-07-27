@@ -1818,7 +1818,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66  #6'
+- name: '未命名 #25'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -2078,22 +2078,20 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '未命名 #15'
+  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
+  port: 54530
+  server: 129.153.59.124
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '10 https://dafei.de #3'
   password: 8a104bc2-a8d1-4f38-8c29-17176a68b7d5
   port: 45000
   server: 23.80.81.213
   skip-cert-verify: true
   sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: v2ray_market11
-  obfs: salamander
-  obfs-password: xu0SJY749OrXVi27YoOyTS
-  password: 9f60e54d-d835-426a-937d-232d9930b236
-  port: 443
-  server: 213.142.133.2
-  skip-cert-verify: true
-  sni: telewebion.com
   tls: false
   type: hysteria2
 - name: ' @FreakConfig'
@@ -2225,7 +2223,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@Daily_Configs'
+- name: '未命名 #16'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -2271,7 +2269,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@SaghiVpnX[] #2'
+- name: '未命名 #18'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2281,11 +2279,41 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '@Filter_breaker | United Kingd...'
+- name: '未命名 #21'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 36600
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '未命名 #17'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35000
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '未命名 #19'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36300
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '未命名 #20'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
@@ -2395,6 +2423,26 @@ proxies:
   server: ushub.xg-hub.icu
   skip-cert-verify: true
   sni: ushub.xg-hub.icu
+  tls: false
+  type: hysteria2
+- name: '未命名 #22'
+  obfs: salamander
+  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
+  password: cb36d691-0349-4d9a-a040-1e0b3dfb5c12
+  port: 35280
+  server: flyjnd.flylink.cyou
+  skip-cert-verify: true
+  sni: flyjnd.flylink.cyou
+  tls: false
+  type: hysteria2
+- name: '未命名 #23'
+  obfs: salamander
+  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
+  password: cb36d691-0349-4d9a-a040-1e0b3dfb5c12
+  port: 35300
+  server: flyrb.flylink.cyou
+  skip-cert-verify: true
+  sni: flyxg.flylink.cyou
   tls: false
   type: hysteria2
 - name: 'Telegram@vmessorg #1'
@@ -2659,16 +2707,6 @@ proxies:
   server: 185.146.173.3400
   skip-cert-verify: false
   sni: hysteria.de.vpnfree.org
-  tls: false
-  type: hysteria2
-- name: '@v2ray_market11 #1'
-  obfs: salamander
-  obfs-password: 765894239048dsjkh
-  password: xKiDlrNd3g
-  port: 8080
-  server: 138.199.174.25
-  skip-cert-verify: true
-  sni: www.speedtest.net
   tls: false
   type: hysteria2
 - name: 'Telegram@vmessorg #2'
