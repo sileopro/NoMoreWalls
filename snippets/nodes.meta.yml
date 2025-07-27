@@ -1977,14 +1977,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@SaghiVpnX[]'
-  password: 568b2070-e528-444e-9cc9-3ec3debe17bf
-  port: 443
-  server: jp03.poke-mon.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 'v2raybluecrystal2 #1'
   obfs: salamander
   obfs-password: v2raybluecrystal
@@ -2012,36 +2004,12 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@SaghiVpnX[] #1'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 74e4fd4b-a4ee-4b9e-8d14-21897385afb9
-  port: 20957
-  server: nexiateq.688997.xyz
-  skip-cert-verify: true
-  sni: nexiateq.688997.xyz
-  tls: false
-  type: hysteria2
 - name: '@V2rayNG3 #3'
   password: 75577117-ABCD-DCBA-AAAA-CC777775577B
   port: 7777
   server: s15.serv00.com
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '@v2ray_configs_pool'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11861
-  server: yume-se.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '@v2ray_configs_pool #1'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11948
-  server: yume-se.legeth.xyz
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: telegram  @v2rayNG_Matsuri
@@ -2219,7 +2187,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@v2ray_configs_pool #3'
+- name: '@SaghiVpnX[]'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2234,26 +2202,6 @@ proxies:
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 36600
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '@v2ray_configs_pool #2'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35000
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '@v2ray_configs_pool #4'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36300
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
@@ -2552,6 +2500,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '@v2ray_configs_pool #1'
+  password: nfsn666
+  port: 8888
+  server: hk.nfsn666.gq
+  skip-cert-verify: true
+  sni: hk.nfsn666.gq
+  tls: false
+  type: hysteria2
 - name: 'v2raybluecrystal2 #5'
   obfs: salamander
   obfs-password: v2raybluecrystal
@@ -2621,13 +2577,6 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- name: '@v2ray_configs_pool #5'
-  password: wl4HYN9PPKs8d8IzGIt4yKqt0
-  port: 53348
-  server: 47.74.34.102
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 'Telegram@vmessorg #2'
   password: yoP8tOtEhMTSBUPY9LwnHABvFE
   port: 14933
@@ -2636,11 +2585,20 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '@SaghiVpnX[] #3'
+- name: '@SaghiVpnX[] #1'
   obfs: salamander
   obfs-password: AwsdFRD453tG
   password: zz0IPHmeNp
   port: 48009
+  server: tamasha.asrenet.ru
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '@SaghiVpnX[] #2'
+  obfs: salamander
+  obfs-password: sanajan324@re44
+  password: zz0IPHmeNp
+  port: 51330
   server: tamasha.asrenet.ru
   skip-cert-verify: true
   tls: false
