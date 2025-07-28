@@ -1642,14 +1642,7 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: 🔷🆔@v2ray_configs_pool🔷
-  password: 04d1fa77-25ee-4f14-9325-2a3d1a2e929e
-  port: 443
-  server: 156.229.160.130
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: Hy2-3
+- name: 日本Hy2-3
   password: 1c473b13-502d-47eb-8cf8-70a38d56c5bd
   port: 443
   server: jp1.interld123456789.com
@@ -1853,7 +1846,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 'Telegram:@config_proxy  #2'
+- name: 'Channel id: @ShadowProxy66  #11'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -1867,6 +1860,13 @@ proxies:
   server: 13.212.75.22
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 🔷🆔@v2ray_configs_pool🔷
+  password: 04d1fa77-25ee-4f14-9325-2a3d1a2e929e
+  port: 443
+  server: 156.229.160.130
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '@CanfigVip+'
