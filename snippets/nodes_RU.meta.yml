@@ -15,6 +15,16 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
+- name: ' Russia_flyels_35270 | @Filter...'
+  obfs: salamander
+  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
+  password: e283d4e4-cbee-45e1-ab19-8eb0c9927891
+  port: 35270
+  server: flyels.flylink.cyou
+  skip-cert-verify: true
+  sni: flyels.flylink.cyou
+  tls: false
+  type: hysteria2
 - name: 'Channel id: @ShadowProxy66🇷🇺'
   password: dongtaiwang.com
   port: 30033

@@ -23,6 +23,16 @@ proxies:
   sni: 1231231.1234567890spcloud.com
   tls: false
   type: hysteria2
+- name: ' Japan_flyrb_35300 | @Filter_b...'
+  obfs: salamander
+  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
+  password: e283d4e4-cbee-45e1-ab19-8eb0c9927891
+  port: 35300
+  server: flyrb.flylink.cyou
+  skip-cert-verify: true
+  sni: flyxg.flylink.cyou
+  tls: false
+  type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 🇯🇵 日本|@ripaojiedian
@@ -52,20 +62,18 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 日本3|@ripaojiedian
-  network: tcp
+  name: 🇯🇵 日本3|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 40937
-  server: 36.151.251.7
+  port: 443
+  server: 172.238.14.135
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 日本4|@ripaojiedian
-  network: tcp
+  name: 🇯🇵 日本4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 41225
-  server: 36.151.251.7
+  server: 172.234.90.253
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -86,6 +94,22 @@ proxies:
     headers:
       Host: ''
     path: /
+- name: 日本3|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 40937
+  server: 36.151.251.7
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 日本4|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 41225
+  server: 36.151.251.7
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 日本v2|@ripaojiedian
