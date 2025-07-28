@@ -1833,7 +1833,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@v2ray_configs_pool #1'
+- name: 'Channel id: @ShadowProxy66  #11'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -2536,14 +2536,6 @@ proxies:
   port: 37804
   server: v2raybluecrystal-france.v2raybluecrystal2.dynv6.net
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '@v2ray_configs_pool #2'
-  password: nfsn666
-  port: 8888
-  server: hk.nfsn666.gq
-  skip-cert-verify: true
-  sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
 - name: 'v2raybluecrystal2 #4'
