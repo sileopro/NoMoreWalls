@@ -1630,7 +1630,14 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: 日本Hy2-3
+- name: Telegram:@config_proxy 😍
+  password: 04d1fa77-25ee-4f14-9325-2a3d1a2e929e
+  port: 443
+  server: 156.229.160.130
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: Hy2-3
   password: 1c473b13-502d-47eb-8cf8-70a38d56c5bd
   port: 443
   server: jp1.interld123456789.com
@@ -1780,7 +1787,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66  #7'
+- name: 'Telegram:@config_proxy  #1'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
@@ -1833,7 +1840,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66  #11'
+- name: 'Telegram:@config_proxy  #2'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -2034,6 +2041,16 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '@SaghiVpnX[] #1'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 8b583ccc-8323-42fb-9538-6e950dfcb553
+  port: 20957
+  server: nexiateq.688997.xyz
+  skip-cert-verify: true
+  sni: nexiateq.688997.xyz
+  tls: false
+  type: hysteria2
 - name: telegram  @v2rayNG_Matsuri
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -2209,7 +2226,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@SaghiVpnX[] #1'
+- name: '@SaghiVpnX[] #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2597,24 +2614,6 @@ proxies:
   server: 18.136.211.127
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '@SaghiVpnX[] #2'
-  obfs: salamander
-  obfs-password: AwsdFRD453tG
-  password: zz0IPHmeNp
-  port: 48009
-  server: tamasha.asrenet.ru
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '@SaghiVpnX[] #3'
-  obfs: salamander
-  obfs-password: sanajan324@re44
-  password: zz0IPHmeNp
-  port: 51330
-  server: tamasha.asrenet.ru
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 'Channel id: @ShadowProxy66🇺🇸 #1'
