@@ -3,7 +3,7 @@ proxies:
   - h3
   client-fingerprint: chrome
   disable-sni: false
-  name: 🇷🇺1 |  2.5MB/s|50%
+  name: 🇷🇺俄罗斯1 | ⬇️ 2.5MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -15,7 +15,24 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
-- name: ' Russia_flyels_35270 | @Filter...'
+- name: 'Channel id: @ShadowProxy66🇷🇺'
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: a18b26c8-6634-4238-8ccb-34e777e1277b
+  port: 33079
+  server: 45.136.245.177
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: روسیه 🇷🇺 @V2xay
+  password: dongtaiwang.com
+  port: 30033
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 🇷🇺 Russia_flyels_35270 | @Filt...
   obfs: salamander
   obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
   password: e283d4e4-cbee-45e1-ab19-8eb0c9927891
@@ -25,7 +42,7 @@ proxies:
   sni: flyels.flylink.cyou
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66🇷🇺'
+- name: 'Channel id: @ShadowProxy66🇷🇺 #1'
   password: dongtaiwang.com
   port: 30033
   server: 45.129.2.108
@@ -33,7 +50,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66🇷🇺 #1'
+- name: 'Channel id: @ShadowProxy66🇷🇺 #2'
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   password: 6d579896-40eb-400c-89b4-4eef10f2e7a6

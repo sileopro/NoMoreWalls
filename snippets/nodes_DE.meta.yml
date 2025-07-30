@@ -1,5 +1,5 @@
 proxies:
-- name: 🇩🇪1 |  1.5MB/s|0%|Openai
+- name: 🇩🇪德国1 | ⬇️ 1.5MB/s|0%|Openai
   network: ws
   port: '80'
   server: 104.17.148.22
@@ -13,7 +13,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 🇩🇪2 |  1.3MB/s|0%|Openai
+- name: 🇩🇪德国2 | ⬇️ 1.3MB/s|0%|Openai
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -27,7 +27,7 @@ proxies:
         like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 🇩🇪3 |  2.6MB/s|20%|Openai
+- name: 🇩🇪德国3 | ⬇️ 2.6MB/s|20%|Openai
   network: ws
   port: 2082
   server: 104.17.148.22
@@ -41,7 +41,7 @@ proxies:
     headers:
       Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- name: 🇩🇪4 |  2.8MB/s|13%|Netflix|You...
+- name: 🇩🇪德国4 | ⬇️ 2.8MB/s|13%|Netflix...
   network: ws
   port: 8880
   server: www.speedtest.net
@@ -59,7 +59,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 🇩🇪德国5 | ⬇️ 1.4MB/s|0%|Youtube|...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -75,7 +75,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
+  name: 🇩🇪德国6 | ⬇️ 4.3MB/s|0%|Disney|O...
   network: tcp
   port: 443
   server: 204.10.194.78
@@ -85,7 +85,51 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- name: ' Germany_flydg_35230 | @Filter...'
+- name: 🇩🇪 @Filter_breaker
+  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
+  port: 30000
+  server: network-de-01.ppldata.xyz
+  sni: network-lite.oss-cn-hongkong.aliyuncs.com
+  tls: false
+  type: hysteria2
+- name: '🇩🇪 @Filter_breaker #1'
+  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
+  port: 30000
+  server: network-de-02.ppldata.xyz
+  sni: network-lite.oss-cn-hongkong.aliyuncs.com
+  tls: false
+  type: hysteria2
+- name: 🇩🇪｜@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7a812743-3e4f-4a5d-8d2d-e5d50b54279f
+  port: 33653
+  server: dg.dport.top
+  skip-cert-verify: true
+  sni: dg.dport.top
+  tls: false
+  type: hysteria2
+- name: آلمان 🇩🇪 @V2xay
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  port: 35000
+  server: 77.90.52.69
+  skip-cert-verify: true
+  sni: pichondan.com
+  tls: false
+  type: hysteria2
+- name: '@Daily_Configs'
+  obfs: salamander
+  obfs-password: Telegram-->@Ln2Ray
+  password: Telegram-->@Ln2Ray
+  port: 45000
+  server: gavazn.lnmarketplace.net
+  skip-cert-verify: true
+  sni: gavazn.55994421.xyz
+  tls: false
+  type: hysteria2
+- name: 🇩🇪 Germany_flydg_35230 | @Filt...
   obfs: salamander
   obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
   password: e283d4e4-cbee-45e1-ab19-8eb0c9927891
@@ -93,6 +137,25 @@ proxies:
   server: flydg.flylink.cyou
   skip-cert-verify: true
   sni: flydg.flylink.cyou
+  tls: false
+  type: hysteria2
+- name: 'آلمان 🇩🇪 @V2xay #3'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f39a270d-c46e-4a39-a998-b33660291e7e
+  port: 20557
+  server: nexiadg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiadg.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'آلمان 🇩🇪 @V2xay #4'
+  obfs: salamander
+  obfs-password: The_Sefr-salamdash
+  password: user12.myserverSEFR097
+  port: 443
+  server: knock.zone1.center
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: DE_speednode_0040

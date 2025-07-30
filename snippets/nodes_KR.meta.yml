@@ -1,5 +1,5 @@
 proxies:
-- name: 🇰🇷1 |  1.3MB/s|61%|Disney|Open...
+- name: 🇰🇷韩国1 | ⬇️ 1.3MB/s|61%|Disney|...
   network: ws
   port: 8880
   server: 216.116.134.20
@@ -14,13 +14,13 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - cipher: aes-256-cfb
-  name: 🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 🇰🇷韩国2 | ⬇️ 1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
 - client-fingerprint: chrome
-  name: 🇰🇷3 |  1.3MB/s|61%|Disney|Open...
+  name: 🇰🇷韩国3 | ⬇️ 1.3MB/s|61%|Disney|...
   network: ws
   port: 8880
   server: 212.183.88.20
@@ -31,7 +31,17 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: ' Korea_flyhg_35310 | @Filter_b...'
+- name: 🇰🇷｜@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7a812743-3e4f-4a5d-8d2d-e5d50b54279f
+  port: 33656
+  server: hg.dport.top
+  skip-cert-verify: true
+  sni: hg.dport.top
+  tls: false
+  type: hysteria2
+- name: 🇰🇷 Korea_flyhg_35310 | @Filter...
   obfs: salamander
   obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
   password: e283d4e4-cbee-45e1-ab19-8eb0c9927891

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 🇭🇰香港1 | ⬇️ 1.8MB/s|15%|Disney|...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -13,6 +13,90 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- name: 🇭🇰香港
+  password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
+  port: 443
+  server: aws-linkhy2.liangxin1.xyz
+  skip-cert-verify: true
+  sni: www.tesla.cn
+  tls: false
+  type: hysteria2
+- name: 🇭🇰香港2
+  password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
+  port: 443
+  server: 89.185.27.133
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66🇭🇰'
+  password: AZrgUfcGknbd6Q6LHkzMT0ODVk
+  port: 32089
+  server: 43.199.72.130
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '🇭🇰香港 #1'
+  password: Wo9rLCYw6gzcfTgIu11mhBVciVs
+  port: 29282
+  server: 47.74.34.102
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '🇭🇰香港 #2'
+  password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c
+  port: 63518
+  server: ovo.5188666.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '🇭🇰香港2 #1'
+  password: b866d83a-d301-4270-b699-40f322bf52fb
+  port: 443
+  server: 89.185.27.133
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66🇭🇰 #1'
+  password: nfsn666
+  port: 8888
+  server: 45.207.222.138
+  skip-cert-verify: true
+  sni: hk.nfsn666.gq
+  tls: false
+  type: hysteria2
+- name: '@SaghiVpnX[🇭🇰]'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: d3b8fcfb-4f76-476e-9c7d-ce43a1d32267
+  port: 20057
+  server: nexiaxg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiaxg.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 🇭🇰 HongKong_flyxg_35290 | @Fil...
+  obfs: salamander
+  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
+  password: e283d4e4-cbee-45e1-ab19-8eb0c9927891
+  port: 35290
+  server: flyxg.flylink.cyou
+  skip-cert-verify: true
+  sni: flyxg.flylink.cyou
+  tls: false
+  type: hysteria2
+- name: 🇭🇰 HongKong_flyxghy_35260 | @F...
+  obfs: salamander
+  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
+  password: e283d4e4-cbee-45e1-ab19-8eb0c9927891
+  port: 35260
+  server: flyxghy.flylink.cyou
+  skip-cert-verify: true
+  sni: flyxghy.flylink.cyou
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

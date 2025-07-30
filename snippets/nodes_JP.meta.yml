@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 🇯🇵日本1 | ⬇️ 1.8MB/s|54%|Youtube...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -23,7 +23,87 @@ proxies:
   sni: 1231231.1234567890spcloud.com
   tls: false
   type: hysteria2
-- name: ' Japan_flyrb_35300 | @Filter_b...'
+- name: 'Channel id: @ShadowProxy66🇯🇵'
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 153.121.42.218
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66🇯🇵 #1'
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 45.11.1.62
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 🇯🇵日本
+  password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
+  port: 443
+  server: aws-linkhy17.liangxin1.xyz
+  skip-cert-verify: true
+  sni: www.apple.com.cn
+  tls: false
+  type: hysteria2
+- name: 东京
+  password: 37d19f09-5fa4-4ad0-8484-55050b582a29
+  port: 2056
+  server: zp1.eyucdn.xyz
+  skip-cert-verify: true
+  sni: zp1.eyujichang.xyz
+  tls: false
+  type: hysteria2
+- name: '东京 #1'
+  password: 37d19f09-5fa4-4ad0-8484-55050b582a29
+  port: 2056
+  server: zp2.eyucdn.xyz
+  skip-cert-verify: true
+  sni: zp2.eyujichang.xyz
+  tls: false
+  type: hysteria2
+- name: 🇯🇵日本东京2
+  password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
+  port: 443
+  server: 154.85.18.233
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 🇯🇵日本东京
+  password: b866d83a-d301-4270-b699-40f322bf52fb
+  port: 443
+  server: 154.85.19.63
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 🇯🇵 @Filter_breaker
+  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
+  port: 30000
+  server: network-jp-01.ppldata.xyz
+  sni: network-lite.oss-cn-hongkong.aliyuncs.com
+  tls: false
+  type: hysteria2
+- name: '🇯🇵 @Filter_breaker #1'
+  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
+  port: 30000
+  server: network-jp-02.ppldata.xyz
+  sni: network-lite.oss-cn-hongkong.aliyuncs.com
+  tls: false
+  type: hysteria2
+- name: 🇯🇵｜@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7a812743-3e4f-4a5d-8d2d-e5d50b54279f
+  port: 33657
+  server: rb.dport.top
+  skip-cert-verify: true
+  sni: rb.dport.top
+  tls: false
+  type: hysteria2
+- name: 🇯🇵 Japan_flyrb_35300 | @Filter...
   obfs: salamander
   obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
   password: e283d4e4-cbee-45e1-ab19-8eb0c9927891
