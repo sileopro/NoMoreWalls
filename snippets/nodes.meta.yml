@@ -2187,16 +2187,6 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '@SaghiVpnX[🇹🇷]'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 918acdcd-8d53-4b58-8304-99bee6218e7c
-  port: 20957
-  server: nexiateq.688997.xyz
-  skip-cert-verify: true
-  sni: nexiateq.688997.xyz
-  tls: false
-  type: hysteria2
 - name: 🇵🇾telegram ➠ @v2rayNG_Matsuri
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -2360,11 +2350,21 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@SaghiVpnX[🇳🇱] #1'
+- name: '@SaghiVpnX[🇳🇱]'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 35200
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: 'Telegram: @vpnbaz'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
@@ -2412,16 +2412,6 @@ proxies:
   server: 150.230.30.237
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '@SaghiVpnX[🇭🇰]'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d3b8fcfb-4f76-476e-9c7d-ce43a1d32267
-  port: 20057
-  server: nexiaxg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaxg.688997.xyz
   tls: false
   type: hysteria2
 - name: '美国10 付费推荐：https://dafei.de #4'
