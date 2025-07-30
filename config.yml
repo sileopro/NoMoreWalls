@@ -6,7 +6,7 @@ NoMoreWalls:
     DIRECT: direct
   categories:
     redir: ["->", 中转, OVERALL]
-    JP: [JP, Japan, 日, 🇯🇵]
+    JP: [JP, Japan, 日, 东京, 🇯🇵]
     US: [US, United States, 美, 🇺🇸]
     TW: [TW, Taiwan, 台, 🇹🇼, OVERALL]
     CN: [CN, China, 中国, 上海, 浙江, 广东, 深圳, 🇨🇳]
