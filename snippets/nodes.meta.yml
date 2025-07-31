@@ -1726,6 +1726,51 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 🇨🇭  𝐒𝐰𝐢𝐭𝐳𝐞𝐫𝐥𝐚𝐧𝐝@Filter_breaker
+  obfs: salamander
+  obfs-password: ee44WW2eesdxfcghoerrbU9dfghjh
+  password: 85d3ef5ea053c9d65c32e535d38ad6c3
+  port: 44444
+  server: sw-oh.com.studentcp.ir
+  sni: sw-oh.com.studentcp.ir
+  tls: false
+  type: hysteria2
+- name: 🇹🇷 𝑻𝒖𝒓𝒌𝒆𝒚 - @Filter_breaker
+  obfs: salamander
+  obfs-password: esdxfcghoerrbU9dfghjh
+  password: 85d3ef5ea053c9d65c32e535d38ad6c3
+  port: 37243
+  server: turk-gorg.com.studentcp.ir
+  sni: turk-gorg.com.studentcp.ir
+  tls: false
+  type: hysteria2
+- name: 🇦🇪 𝐔𝐀𝐄 - @Filter_breaker
+  obfs: salamander
+  obfs-password: esdxfcghoerrbU9dfghjh
+  password: 85d3ef5ea053c9d65c32e535d38ad6c3
+  port: 20999
+  server: w.w.w.uae.studentcp.ir
+  sni: w.w.w.uae.studentcp.ir
+  tls: false
+  type: hysteria2
+- name: 🇦🇲 𝐀𝐫𝐦𝐚𝐧𝐢𝐚 - @Filter_breaker
+  obfs: salamander
+  obfs-password: CFtajjqjbGh6t5Vvah
+  password: 85d3ef5ea053c9d65c32e535d38ad6c3
+  port: 10201
+  server: ww.w.8.8.8.8.arman.com.studentcp.ir
+  sni: ww.w.8.8.8.8.arman.com.studentcp.ir
+  tls: false
+  type: hysteria2
+- name: 🇷🇺 𝐑𝐮𝐬𝐬𝐢𝐚 @Filter_breaker
+  obfs: salamander
+  obfs-password: ssS3Dassfyuf2dw5sssWVSewge3
+  password: 85d3ef5ea053c9d65c32e535d38ad6c3
+  port: 1423
+  server: www.putin.kom.studentcp.ir
+  sni: www.putin.kom.studentcp.ir
+  tls: false
+  type: hysteria2
 - name: 'Channel id: @ShadowProxy66🇭🇰'
   password: AZrgUfcGknbd6Q6LHkzMT0ODVk
   port: 32089
@@ -2403,6 +2448,16 @@ proxies:
   server: nexiaxg.688997.xyz
   skip-cert-verify: true
   sni: nexiaxg.688997.xyz
+  tls: false
+  type: hysteria2
+- name: کانفیگ پرسرعت و ارزان همراه تس...
+  obfs: salamander
+  obfs-password: Mzc5NTA3MjVlZDMyYTYyMA==
+  password: d84be3ca-d0b6-4bd0-9b61-db86d7c65969
+  port: 443
+  server: 212.115.41.93
+  skip-cert-verify: true
+  sni: aparat.com
   tls: false
   type: hysteria2
 - name: '@V2ray_cartel'

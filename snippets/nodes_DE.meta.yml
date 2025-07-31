@@ -129,6 +129,16 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
+- name: کانفیگ پرسرعت و ارزان همراه تس...
+  obfs: salamander
+  obfs-password: Mzc5NTA3MjVlZDMyYTYyMA==
+  password: d84be3ca-d0b6-4bd0-9b61-db86d7c65969
+  port: 443
+  server: 212.115.41.93
+  skip-cert-verify: true
+  sni: aparat.com
+  tls: false
+  type: hysteria2
 - name: 🇩🇪 Germany_flydg_35230 | @Filt...
   obfs: salamander
   obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
