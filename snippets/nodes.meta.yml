@@ -1295,13 +1295,11 @@ proxies:
   tls: true
   type: socks5
 - auth: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-  name: '🔷🆔@v2ray_configs_pool🔷 #112'
+  name: 🇺🇸美国96 | ⬇️ 2.4MB/s
   password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
   port: 8443
   server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
-  skip-cert-verify: false
   sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
-  tls: false
   type: hysteria2
   udp: true
 - name: 🇺🇸美国97 | ⬇️ 2.2MB/s|14%|Openai
@@ -1320,13 +1318,11 @@ proxies:
   ws-opts:
     path: /6603a779
 - auth: 2ec58858-976b-11ea-82ef-f23c9164ca5d
-  name: '🔷🆔@v2ray_configs_pool🔷 #47'
+  name: 🇺🇸美国98 | ⬇️ 1.3MB/s
   password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
   port: 8443
   server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net
-  skip-cert-verify: false
   sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net
-  tls: false
   type: hysteria2
   udp: true
 - name: 🇺🇸美国99 | ⬇️ 4.8MB/s|0%|Openai|...
@@ -1381,13 +1377,11 @@ proxies:
   type: hysteria2
   udp: true
 - auth: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
-  name: '🔷🆔@v2ray_configs_pool🔷 #149'
+  name: 🇺🇸美国105 | ⬇️ 2.9MB/s
   password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
   port: 8443
   server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
-  skip-cert-verify: false
   sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
-  tls: false
   type: hysteria2
   udp: true
 - name: 🇺🇸美国106 | ⬇️ 1.8MB/s|14%|Opena...
@@ -1642,15 +1636,14 @@ proxies:
   sni: 1231231.1234567890spcloud.com
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #34'
+- name: 'Channel id: @ShadowProxy66🇺🇸'
   password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
   port: 8443
   server: 107.167.18.102
-  skip-cert-verify: false
   sni: 0e1462f1-sum4g0-t8ro7t-1ey07.hy2.gotochinatown.net
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #38'
+- name: 'Channel id: @ShadowProxy66🇯🇵'
   password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
   port: 443
   server: 153.121.42.218
@@ -1658,7 +1651,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #39'
+- name: 'Channel id: @ShadowProxy66🇯🇵 #1'
   password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
   port: 443
   server: 45.11.1.62
@@ -1799,7 +1792,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #115'
+- name: 'Channel id: @ShadowProxy66🇷🇺'
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   password: a18b26c8-6634-4238-8ccb-34e777e1277b
@@ -2032,26 +2025,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 🔷🆔@v2ray_configs_pool🔷
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0004f8b0-df8e-4f3d-866a-e3547122933d
-  port: 20857
-  server: nexiabx.688997.xyz
-  skip-cert-verify: true
-  sni: nexiabx.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #1'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0004f8b0-df8e-4f3d-866a-e3547122933d
-  port: 20557
-  server: nexiadg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiadg.688997.xyz
-  tls: false
-  type: hysteria2
 - name: '@Daily_Configs'
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
@@ -2062,246 +2035,6 @@ proxies:
   sni: nexiaels.688997.xyz
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #2'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0004f8b0-df8e-4f3d-866a-e3547122933d
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #3'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0004f8b0-df8e-4f3d-866a-e3547122933d
-  port: 20457
-  server: nexiahl.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahl.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #4'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0004f8b0-df8e-4f3d-866a-e3547122933d
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #5'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0004f8b0-df8e-4f3d-866a-e3547122933d
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #6'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02dc1ff3-a076-4bc1-8f85-10e64a29b754
-  port: 20857
-  server: nexiabx.688997.xyz
-  skip-cert-verify: true
-  sni: nexiabx.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #7'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02dc1ff3-a076-4bc1-8f85-10e64a29b754
-  port: 20557
-  server: nexiadg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiadg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #8'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02dc1ff3-a076-4bc1-8f85-10e64a29b754
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #9'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02dc1ff3-a076-4bc1-8f85-10e64a29b754
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #10'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02dc1ff3-a076-4bc1-8f85-10e64a29b754
-  port: 20157
-  server: nexiamg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiamg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #11'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02dc1ff3-a076-4bc1-8f85-10e64a29b754
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #12'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02dc1ff3-a076-4bc1-8f85-10e64a29b754
-  port: 20957
-  server: nexiateq.688997.xyz
-  skip-cert-verify: true
-  sni: nexiateq.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #13'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 02dc1ff3-a076-4bc1-8f85-10e64a29b754
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #14'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 033932e3-7f3b-4c5c-96d1-49f525991abf
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #15'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 033932e3-7f3b-4c5c-96d1-49f525991abf
-  port: 25781
-  server: jphub.xg-hub.icu
-  skip-cert-verify: true
-  sni: jphub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #16'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 033932e3-7f3b-4c5c-96d1-49f525991abf
-  port: 25786
-  server: twhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: twhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #17'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0569c5b3-f400-46c8-b71d-2467382c35b8
-  port: 20557
-  server: nexiadg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiadg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #18'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0569c5b3-f400-46c8-b71d-2467382c35b8
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #19'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0569c5b3-f400-46c8-b71d-2467382c35b8
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #20'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0569c5b3-f400-46c8-b71d-2467382c35b8
-  port: 20457
-  server: nexiahl.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahl.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #21'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0569c5b3-f400-46c8-b71d-2467382c35b8
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #22'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0b52d6c8-445e-4450-a12c-e35fbd73183a
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #23'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0b52d6c8-445e-4450-a12c-e35fbd73183a
-  port: 25785
-  server: ukhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: ukhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #24'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0e122b6d-67ea-4243-a7fb-641a544c7bf0
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #25'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0e122b6d-67ea-4243-a7fb-641a544c7bf0
-  port: 25786
-  server: twhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: twhub.xg-hub.icu
-  tls: false
-  type: hysteria2
 - name: '@V2rayNG3'
   password: '123456'
   port: 443
@@ -2310,52 +2043,12 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #26'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 139fe171-d1a8-4a08-abd5-81660cd9459b
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #27'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 139fe171-d1a8-4a08-abd5-81660cd9459b
-  port: 33651
-  server: jnd.dport.top
-  skip-cert-verify: true
-  sni: jnd.dport.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #28'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 139fe171-d1a8-4a08-abd5-81660cd9459b
-  port: 33658
-  server: teq.dport.top
-  skip-cert-verify: true
-  sni: teq.dport.top
-  tls: false
-  type: hysteria2
 - name: '@V2rayNG3 #1'
   password: 15cca331-9e92-449d-93b0-25f82203595f
   port: 20309
   server: gb.gomeow.online
   skip-cert-verify: false
   sni: gb.gomeow.online
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #29'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 1749cfb9-d214-4537-9f2f-543378dcf14f
-  port: 33653
-  server: dg.dport.top
-  skip-cert-verify: true
-  sni: dg.dport.top
   tls: false
   type: hysteria2
 - name: Telegram:@config_proxy 💦
@@ -2368,44 +2061,14 @@ proxies:
   sni: hl.dport.top
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #30'
+- name: '@SaghiVpnX[🇹🇷]'
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 1749cfb9-d214-4537-9f2f-543378dcf14f
-  port: 33651
-  server: jnd.dport.top
+  password: 1fe99fb2-9f40-4c5e-b275-de1d49d51409
+  port: 20957
+  server: nexiateq.688997.xyz
   skip-cert-verify: true
-  sni: jnd.dport.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #31'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 1d6feed2-6d2e-4509-a304-210de50a41d3
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #32'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 1d6feed2-6d2e-4509-a304-210de50a41d3
-  port: 25782
-  server: hkhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: hkhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #33'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 1d6feed2-6d2e-4509-a304-210de50a41d3
-  port: 25783
-  server: krhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: krhub.xg-hub.icu
+  sni: nexiateq.688997.xyz
   tls: false
   type: hysteria2
 - name: '@V2rayNG3 #2'
@@ -2416,166 +2079,6 @@ proxies:
   server: 109.120.135.123
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #35'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 2456027e-a471-476c-b5d0-4ac80f9aaf8c
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #36'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 2456027e-a471-476c-b5d0-4ac80f9aaf8c
-  port: 25781
-  server: jphub.xg-hub.icu
-  skip-cert-verify: true
-  sni: jphub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #37'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 2456027e-a471-476c-b5d0-4ac80f9aaf8c
-  port: 25786
-  server: twhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: twhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #40'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 2712bd76-3dd2-4cfb-a962-65ae95825432
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #41'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 2712bd76-3dd2-4cfb-a962-65ae95825432
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #42'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 2712bd76-3dd2-4cfb-a962-65ae95825432
-  port: 20457
-  server: nexiahl.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahl.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #43'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 2712bd76-3dd2-4cfb-a962-65ae95825432
-  port: 20157
-  server: nexiamg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiamg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #44'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 2712bd76-3dd2-4cfb-a962-65ae95825432
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #45'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 2712bd76-3dd2-4cfb-a962-65ae95825432
-  port: 20057
-  server: nexiaxg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaxg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #46'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 2c0b8dc3-6dd7-4a47-acfb-6d12de70e2ed
-  port: 35260
-  server: flyxghy.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxghy.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #48'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 318847a3-bfcb-4c0c-9c1b-365e69ba4ad1
-  port: 35240
-  server: flyyg.flylink.cyou
-  skip-cert-verify: true
-  sni: flyyg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #49'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 338bb7db-e7e0-4279-bf97-ff21b4c3fc67
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #50'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 338bb7db-e7e0-4279-bf97-ff21b4c3fc67
-  port: 25786
-  server: twhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: twhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #51'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 343bdaa2-2f89-4bee-80d4-2a797d8d13fe
-  port: 35240
-  server: flyyg.flylink.cyou
-  skip-cert-verify: true
-  sni: flyyg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #52'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 448f52d9-3b9f-44a6-a204-60dcc9428d63
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #53'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 448f52d9-3b9f-44a6-a204-60dcc9428d63
-  port: 25785
-  server: ukhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: ukhub.xg-hub.icu
   tls: false
   type: hysteria2
 - name: v2raybluecrystal2
@@ -2605,27 +2108,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #54'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 4b6f7c4d-809d-4d89-9b6f-68f95fbd140d
-  port: 25781
-  server: jphub.xg-hub.icu
-  skip-cert-verify: true
-  sni: jphub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #55'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 4b6f7c4d-809d-4d89-9b6f-68f95fbd140d
-  port: 25785
-  server: ukhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: ukhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #56'
+- name: 'Telegram:@config_proxy 💦 #1'
   obfs: salamander
   obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
   password: 5132d29b-e76d-4c5b-97a2-25d9ed8bd2b6
@@ -2635,57 +2118,7 @@ proxies:
   sni: flyxg.flylink.cyou
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #57'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 591e50da-9904-467e-94e8-397a35c4f4a6
-  port: 25781
-  server: jphub.xg-hub.icu
-  skip-cert-verify: true
-  sni: jphub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #58'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 591e50da-9904-467e-94e8-397a35c4f4a6
-  port: 25786
-  server: twhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: twhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #59'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 591e50da-9904-467e-94e8-397a35c4f4a6
-  port: 25780
-  server: ushub.xg-hub.icu
-  skip-cert-verify: true
-  sni: ushub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #60'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 63399f11-4b3a-4ccb-9b9c-c9a3145912f9
-  port: 33654
-  server: bx.dport.top
-  skip-cert-verify: true
-  sni: bx.dport.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #61'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 63399f11-4b3a-4ccb-9b9c-c9a3145912f9
-  port: 33653
-  server: dg.dport.top
-  skip-cert-verify: true
-  sni: dg.dport.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #62'
+- name: 'Telegram:@config_proxy 💦 #2'
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: 63399f11-4b3a-4ccb-9b9c-c9a3145912f9
@@ -2702,272 +2135,12 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #63'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 6d17d8ab-65a4-42ca-871f-6f3ece589918
-  port: 20857
-  server: nexiabx.688997.xyz
-  skip-cert-verify: true
-  sni: nexiabx.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #64'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 6d17d8ab-65a4-42ca-871f-6f3ece589918
-  port: 20557
-  server: nexiadg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiadg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #65'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 6d17d8ab-65a4-42ca-871f-6f3ece589918
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #66'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 6d17d8ab-65a4-42ca-871f-6f3ece589918
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #67'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 6e0656ac-c527-4fbd-97a6-0d791eedbda3
-  port: 20857
-  server: nexiabx.688997.xyz
-  skip-cert-verify: true
-  sni: nexiabx.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #68'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 6e0656ac-c527-4fbd-97a6-0d791eedbda3
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #69'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 6e0656ac-c527-4fbd-97a6-0d791eedbda3
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #70'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 6e0656ac-c527-4fbd-97a6-0d791eedbda3
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #71'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 707ea935-924c-4127-8b6d-8c0ccf5eabd1
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #72'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 707ea935-924c-4127-8b6d-8c0ccf5eabd1
-  port: 25782
-  server: hkhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: hkhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #73'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 72191658-250a-4281-b2fb-03038876ba26
-  port: 20857
-  server: nexiabx.688997.xyz
-  skip-cert-verify: true
-  sni: nexiabx.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #74'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 72191658-250a-4281-b2fb-03038876ba26
-  port: 20457
-  server: nexiahl.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahl.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #75'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 72191658-250a-4281-b2fb-03038876ba26
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #76'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 72191658-250a-4281-b2fb-03038876ba26
-  port: 20957
-  server: nexiateq.688997.xyz
-  skip-cert-verify: true
-  sni: nexiateq.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #77'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 72191658-250a-4281-b2fb-03038876ba26
-  port: 20057
-  server: nexiaxg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaxg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #78'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 72191658-250a-4281-b2fb-03038876ba26
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #79'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 724a0024-6d29-41b9-a510-7d8bd126a380
-  port: 33653
-  server: dg.dport.top
-  skip-cert-verify: true
-  sni: dg.dport.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #80'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 724a0024-6d29-41b9-a510-7d8bd126a380
-  port: 33651
-  server: jnd.dport.top
-  skip-cert-verify: true
-  sni: jnd.dport.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #81'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 724a0024-6d29-41b9-a510-7d8bd126a380
-  port: 33658
-  server: teq.dport.top
-  skip-cert-verify: true
-  sni: teq.dport.top
-  tls: false
-  type: hysteria2
 - name: '@V2rayNG3 #3'
   password: 75577117-ABCD-DCBA-AAAA-CC777775577B
   port: 7777
   server: s15.serv00.com
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #82'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 762650e2-ce38-4450-a767-2697d18663e7
-  port: 35230
-  server: flydg.flylink.cyou
-  skip-cert-verify: true
-  sni: flydg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #83'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 762650e2-ce38-4450-a767-2697d18663e7
-  port: 35270
-  server: flyels.flylink.cyou
-  skip-cert-verify: true
-  sni: flyels.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #84'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 762650e2-ce38-4450-a767-2697d18663e7
-  port: 35310
-  server: flyhg.flylink.cyou
-  skip-cert-verify: true
-  sni: flyhg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #85'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 762650e2-ce38-4450-a767-2697d18663e7
-  port: 35260
-  server: flyxghy.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxghy.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #86'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 762650e2-ce38-4450-a767-2697d18663e7
-  port: 35240
-  server: flyyg.flylink.cyou
-  skip-cert-verify: true
-  sni: flyyg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #87'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 771b45aa-d017-4e35-841b-33ec8bf5bad4
-  port: 35230
-  server: flydg.flylink.cyou
-  skip-cert-verify: true
-  sni: flydg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy 💦 #3'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 771b45aa-d017-4e35-841b-33ec8bf5bad4
-  port: 35240
-  server: flyyg.flylink.cyou
-  skip-cert-verify: true
-  sni: flyyg.flylink.cyou
   tls: false
   type: hysteria2
 - name: 🇧🇷｜@Filter_breaker
@@ -3060,223 +2233,14 @@ proxies:
   sni: teq.dport.top
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #88'
+- name: '@SaghiVpnX[🇹🇷] #1'
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 7b2e01b1-4f4c-408a-9ee5-ad340fbba0e4
-  port: 20557
-  server: nexiadg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiadg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #89'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 7b2e01b1-4f4c-408a-9ee5-ad340fbba0e4
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #90'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 7b2e01b1-4f4c-408a-9ee5-ad340fbba0e4
-  port: 20457
-  server: nexiahl.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahl.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #91'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 7b2e01b1-4f4c-408a-9ee5-ad340fbba0e4
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #92'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 7b2e01b1-4f4c-408a-9ee5-ad340fbba0e4
+  password: 918acdcd-8d53-4b58-8304-99bee6218e7c
   port: 20957
   server: nexiateq.688997.xyz
   skip-cert-verify: true
   sni: nexiateq.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #93'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 7b2e01b1-4f4c-408a-9ee5-ad340fbba0e4
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #94'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 7dfb149a-47ee-4c98-8da4-26176d4ae5db
-  port: 35310
-  server: flyhg.flylink.cyou
-  skip-cert-verify: true
-  sni: flyhg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #95'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 7dfb149a-47ee-4c98-8da4-26176d4ae5db
-  port: 35250
-  server: flyhl.flylink.cyou
-  skip-cert-verify: true
-  sni: flyhl.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #96'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 8007932c-b77f-4f02-b8c5-d63c19e4d124
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #97'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 8007932c-b77f-4f02-b8c5-d63c19e4d124
-  port: 25785
-  server: ukhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: ukhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #98'
-  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  port: 54530
-  server: 129.153.59.124
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #99'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 91444c14-779d-4974-a68f-95cb7105f2fa
-  port: 35270
-  server: flyels.flylink.cyou
-  skip-cert-verify: true
-  sni: flyels.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #100'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 91444c14-779d-4974-a68f-95cb7105f2fa
-  port: 35300
-  server: flyrb.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #101'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 91444c14-779d-4974-a68f-95cb7105f2fa
-  port: 35260
-  server: flyxghy.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxghy.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #102'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 91444c14-779d-4974-a68f-95cb7105f2fa
-  port: 35240
-  server: flyyg.flylink.cyou
-  skip-cert-verify: true
-  sni: flyyg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #103'
-  obfs: salamander
-  obfs-password: KevinZakarian
-  password: 917pnfE203
-  port: 11001
-  server: 185.45.193.164
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #104'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 93b62c20-90fa-4494-9619-b3479fa372b2
-  port: 35230
-  server: flydg.flylink.cyou
-  skip-cert-verify: true
-  sni: flydg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #105'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 93b62c20-90fa-4494-9619-b3479fa372b2
-  port: 35270
-  server: flyels.flylink.cyou
-  skip-cert-verify: true
-  sni: flyels.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #106'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11145
-  server: yume-ee.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #107'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11232
-  server: yume-ee.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #108'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11496
-  server: yume-es.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #109'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11658
-  server: yume-il.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #110'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11957
-  server: yume-nl.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #111'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11484
-  server: yume-us.legeth.xyz
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: 🇵🇾telegram ➠ @v2rayNG_Matsuri
@@ -3405,7 +2369,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #113'
+- name: '🇵🇾telegram ➠ @v2rayNG_Matsuri #1'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -3442,7 +2406,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@SaghiVpnX[🇳🇱]'
+- name: '@SaghiVpnX[🇳🇱] #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -3489,106 +2453,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #116'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: a3321309-41bb-4d53-8028-d6d5ede426a8
-  port: 35230
-  server: flydg.flylink.cyou
-  skip-cert-verify: true
-  sni: flydg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #117'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: a65c5cf2-9681-4ebc-904e-11fee411fe6c
-  port: 35230
-  server: flydg.flylink.cyou
-  skip-cert-verify: true
-  sni: flydg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #118'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: a65c5cf2-9681-4ebc-904e-11fee411fe6c
-  port: 35270
-  server: flyels.flylink.cyou
-  skip-cert-verify: true
-  sni: flyels.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #119'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: a65c5cf2-9681-4ebc-904e-11fee411fe6c
-  port: 35250
-  server: flyhl.flylink.cyou
-  skip-cert-verify: true
-  sni: flyhl.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #120'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: a65c5cf2-9681-4ebc-904e-11fee411fe6c
-  port: 35300
-  server: flyrb.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #121'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: a65c5cf2-9681-4ebc-904e-11fee411fe6c
-  port: 35260
-  server: flyxghy.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxghy.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #122'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: af5cd0c6-9df5-4728-984a-0a85ecafb668
-  port: 33656
-  server: hg.dport.top
-  skip-cert-verify: true
-  sni: hg.dport.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #123'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: af5cd0c6-9df5-4728-984a-0a85ecafb668
-  port: 33651
-  server: jnd.dport.top
-  skip-cert-verify: true
-  sni: jnd.dport.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #124'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: af5cd0c6-9df5-4728-984a-0a85ecafb668
-  port: 33650
-  server: mg.dport.top
-  skip-cert-verify: true
-  sni: mg.dport.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #125'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: af5cd0c6-9df5-4728-984a-0a85ecafb668
-  port: 33658
-  server: teq.dport.top
-  skip-cert-verify: true
-  sni: teq.dport.top
-  tls: false
-  type: hysteria2
 - name: '@Filter_breaker_206.71.158.40'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -3596,96 +2460,6 @@ proxies:
   port: 33331
   server: 206.71.158.40
   sni: jnir-1.pichondan.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #126'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: c197f9f0-84e1-4ca4-b87e-b290afa95191
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #127'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: c197f9f0-84e1-4ca4-b87e-b290afa95191
-  port: 25783
-  server: krhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: krhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #128'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: c197f9f0-84e1-4ca4-b87e-b290afa95191
-  port: 25786
-  server: twhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: twhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #129'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: c19a5f77-460c-4273-aea7-7666fb9a632a
-  port: 35250
-  server: flyhl.flylink.cyou
-  skip-cert-verify: true
-  sni: flyhl.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #130'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: c19a5f77-460c-4273-aea7-7666fb9a632a
-  port: 35300
-  server: flyrb.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #131'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: c19a5f77-460c-4273-aea7-7666fb9a632a
-  port: 35260
-  server: flyxghy.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxghy.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #132'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: c1d1cb71-0ae4-44c8-920d-7ae95d3e1187
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #133'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: c1d1cb71-0ae4-44c8-920d-7ae95d3e1187
-  port: 25782
-  server: hkhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: hkhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #134'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: cb36d691-0349-4d9a-a040-1e0b3dfb5c12
-  port: 35230
-  server: flydg.flylink.cyou
-  skip-cert-verify: true
-  sni: flydg.flylink.cyou
   tls: false
   type: hysteria2
 - name: 'Telegram@vmessorg #1'
@@ -3696,37 +2470,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #135'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d2fa4738-6c9a-4cfd-a2ef-33b5d408f6a8
-  port: 20857
-  server: nexiabx.688997.xyz
-  skip-cert-verify: true
-  sni: nexiabx.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #136'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d2fa4738-6c9a-4cfd-a2ef-33b5d408f6a8
-  port: 20557
-  server: nexiadg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiadg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #137'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d2fa4738-6c9a-4cfd-a2ef-33b5d408f6a8
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #138'
+- name: 'Telegram:@config_proxy 💦 #3'
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: d2fa4738-6c9a-4cfd-a2ef-33b5d408f6a8
@@ -3736,84 +2480,14 @@ proxies:
   sni: nexiahl.688997.xyz
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #139'
+- name: '@SaghiVpnX[🇭🇰]'
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d2fa4738-6c9a-4cfd-a2ef-33b5d408f6a8
+  password: d3b8fcfb-4f76-476e-9c7d-ce43a1d32267
   port: 20057
   server: nexiaxg.688997.xyz
   skip-cert-verify: true
   sni: nexiaxg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #140'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d2fa4738-6c9a-4cfd-a2ef-33b5d408f6a8
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #141'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: d4a98364-7b10-4ebd-b79b-7f045d66ff33
-  port: 35230
-  server: flydg.flylink.cyou
-  skip-cert-verify: true
-  sni: flydg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #142'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: d4a98364-7b10-4ebd-b79b-7f045d66ff33
-  port: 35250
-  server: flyhl.flylink.cyou
-  skip-cert-verify: true
-  sni: flyhl.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #143'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d4cf6e04-6614-4e31-bd24-10db576815d9
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #144'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d4cf6e04-6614-4e31-bd24-10db576815d9
-  port: 25782
-  server: hkhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: hkhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #145'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d4cf6e04-6614-4e31-bd24-10db576815d9
-  port: 25781
-  server: jphub.xg-hub.icu
-  skip-cert-verify: true
-  sni: jphub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #146'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d4cf6e04-6614-4e31-bd24-10db576815d9
-  port: 25786
-  server: twhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: twhub.xg-hub.icu
   tls: false
   type: hysteria2
 - name: 𝗝𝗼𝗶𝗻 ➠ @V2ray_persian21 | کانا...
@@ -3866,16 +2540,6 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #147'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e21fcd4e-1d46-4b16-b8f4-4c9c51d90879
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
 - name: 🇩🇪 Germany_flydg_35230 | @Filt...
   obfs: salamander
   obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
@@ -3906,7 +2570,7 @@ proxies:
   sni: flyhg.flylink.cyou
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #148'
+- name: 🇳🇱 Netherlands_flyhl_35250 | @...
   obfs: salamander
   obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
   password: e283d4e4-cbee-45e1-ab19-8eb0c9927891
@@ -4010,254 +2674,6 @@ proxies:
   port: 41250
   server: 5.133.102.59
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #150'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e45543c2-9fb4-4785-9eea-b202f94dabf3
-  port: 35230
-  server: flydg.flylink.cyou
-  skip-cert-verify: true
-  sni: flydg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #151'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e45543c2-9fb4-4785-9eea-b202f94dabf3
-  port: 35310
-  server: flyhg.flylink.cyou
-  skip-cert-verify: true
-  sni: flyhg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #152'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e45543c2-9fb4-4785-9eea-b202f94dabf3
-  port: 35300
-  server: flyrb.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #153'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e45543c2-9fb4-4785-9eea-b202f94dabf3
-  port: 35260
-  server: flyxghy.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxghy.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #154'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e45543c2-9fb4-4785-9eea-b202f94dabf3
-  port: 35240
-  server: flyyg.flylink.cyou
-  skip-cert-verify: true
-  sni: flyyg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #155'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e561798e-c51f-45c1-b0f6-036db4540205
-  port: 35230
-  server: flydg.flylink.cyou
-  skip-cert-verify: true
-  sni: flydg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #156'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e561798e-c51f-45c1-b0f6-036db4540205
-  port: 35270
-  server: flyels.flylink.cyou
-  skip-cert-verify: true
-  sni: flyels.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #157'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e561798e-c51f-45c1-b0f6-036db4540205
-  port: 35260
-  server: flyxghy.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxghy.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #158'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e561798e-c51f-45c1-b0f6-036db4540205
-  port: 35240
-  server: flyyg.flylink.cyou
-  skip-cert-verify: true
-  sni: flyyg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #159'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e5987910-655a-4d1d-aab3-a6fc0ae31304
-  port: 35230
-  server: flydg.flylink.cyou
-  skip-cert-verify: true
-  sni: flydg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #160'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: e5987910-655a-4d1d-aab3-a6fc0ae31304
-  port: 35210
-  server: flymg.flylink.cyou
-  skip-cert-verify: true
-  sni: flymg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #161'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e6c29ae0-f573-4dca-9b02-b4133edd7e38
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #162'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e6c29ae0-f573-4dca-9b02-b4133edd7e38
-  port: 25786
-  server: twhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: twhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #163'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e6c29ae0-f573-4dca-9b02-b4133edd7e38
-  port: 25785
-  server: ukhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: ukhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #164'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e8e34487-b0a6-4992-a4b3-17155b4e8639
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #165'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e8e34487-b0a6-4992-a4b3-17155b4e8639
-  port: 25783
-  server: krhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: krhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #166'
-  password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
-  port: 43057
-  server: 203.174.82.145
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #167'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ed2621e5-67ad-40e7-a2ef-61278db1a59b
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #168'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ed2621e5-67ad-40e7-a2ef-61278db1a59b
-  port: 25782
-  server: hkhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: hkhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #169'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ed2621e5-67ad-40e7-a2ef-61278db1a59b
-  port: 25783
-  server: krhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: krhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #170'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ed2621e5-67ad-40e7-a2ef-61278db1a59b
-  port: 25786
-  server: twhub.xg-hub.icu
-  skip-cert-verify: true
-  sni: twhub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy 💦 #5'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: edf85f14-ba97-49e4-990a-a4d873bab1a1
-  port: 25784
-  server: dehub.xg-hub.icu
-  skip-cert-verify: true
-  sni: dehub.xg-hub.icu
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #171'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: f1fe7dcd-d1d7-4663-be22-426150f661e8
-  port: 35250
-  server: flyhl.flylink.cyou
-  skip-cert-verify: true
-  sni: flyhl.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #172'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: f1fe7dcd-d1d7-4663-be22-426150f661e8
-  port: 35300
-  server: flyrb.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxg.flylink.cyou
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #173'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: f1fe7dcd-d1d7-4663-be22-426150f661e8
-  port: 35260
-  server: flyxghy.flylink.cyou
-  skip-cert-verify: true
-  sni: flyxghy.flylink.cyou
   tls: false
   type: hysteria2
 - name: 'آلمان 🇩🇪 @V2xay #3'
