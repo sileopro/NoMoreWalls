@@ -203,7 +203,7 @@ proxies:
   port: 23328
   reality-opts:
     public-key: Za4d7M22mOEGXV23Tkb_STUCIznMbtlUS89ZAaECjU0
-    short-id: 1af22e9c44f798bc
+    short-id: '!!str 1af22e9c44f798bc'
   server: 85.9.204.21
   servername: ilovepdf.com
   skip-cert-verify: false

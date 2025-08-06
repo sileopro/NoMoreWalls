@@ -92,6 +92,14 @@ proxies:
     path: /
 - name: 'Channel id: @ShadowProxy66🇫🇷'
   password: dongtaiwang.com
+  port: 5355
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66🇫🇷 #1'
+  password: dongtaiwang.com
   port: 31180
   server: 51.159.111.32
   skip-cert-verify: true

@@ -80,6 +80,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: 'Channel id: @ShadowProxy66🇯🇵 #2'
+  password: bd109dec-b7b5-4f0b-a77d-1181c148712c
+  port: 53272
+  server: 47.79.32.141
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 'Channel id: @ShadowProxy66🇯🇵 #3'
   password: wl4HYN9PPKs8d8IzGIt4yKqt0
   port: 53348
   server: 47.74.34.102
