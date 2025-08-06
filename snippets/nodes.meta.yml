@@ -1803,7 +1803,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: Telegram:@config_proxy 😍
+- name: 'Channel id: @ShadowProxy66🇺🇸 #6'
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   password: ba3c2ddf-237d-4f41-a6b5-9706ec5de0fd
@@ -1812,7 +1812,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 'Telegram:@config_proxy 😍 #1'
+- name: 'Channel id: @ShadowProxy66🇯🇵 #2'
   password: bd109dec-b7b5-4f0b-a77d-1181c148712c
   port: 53272
   server: 47.79.32.141
@@ -1862,7 +1862,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Telegram:@config_proxy 😍 #3'
+- name: '@warp_city #2'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -1890,16 +1890,6 @@ proxies:
   server: 203.174.82.145
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy 😍 #4'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ec8b45d0-ddb0-4758-bf19-5ce2d409dc3c
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
   tls: false
   type: hysteria2
 - name: 🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
