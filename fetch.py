@@ -647,6 +647,9 @@ class Node:
         if 'alpn' in ret and isinstance(ret['alpn'], str):
             # 'alpn' is not a slice
             ret['alpn'] = ret['alpn'].replace(' ','').split(',')
+        # A temporary fix for mihomo-party's `invalid REALITY short ID` error.
+        if 'reality-opts' in ret and 'short-id' in ret['reality-opts']:
+            ret['reality-opts']['short-id'] = '!!str '+ret['reality-opts']['short-id']
         return ret
 
     def supports_clash(self, meta=False) -> bool:
