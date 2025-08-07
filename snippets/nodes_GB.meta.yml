@@ -7,13 +7,6 @@ proxies:
   sni: gbr1.587458.xyz
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66🇬🇧 #1'
-  password: e48d6377dda26840
-  port: 42353
-  server: 185.184.70.120
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: GB_speednode_0027
   network: ws
   port: 8880

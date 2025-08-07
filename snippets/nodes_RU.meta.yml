@@ -23,23 +23,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66🇷🇺'
-  password: dongtaiwang.com
-  port: 30033
-  server: 45.129.2.108
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'Channel id: @ShadowProxy66🇷🇺 #1'
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 6d579896-40eb-400c-89b4-4eef10f2e7a6
-  port: 30073
-  server: 45.147.201.231
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: RU_speednode_0085
   network: ws
   port: 8880
