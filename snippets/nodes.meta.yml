@@ -1836,7 +1836,7 @@ proxies:
   sni: gbr1.587458.xyz
   tls: false
   type: hysteria2
-- name: کانفیگ پرسرعت و ارزان همراه تس...
+- name: TR 4 🇹🇷 | @v2xay
   obfs: salamander
   obfs-password: Mzc5NTA3MjVlZDMyYTYyMA==
   password: d84be3ca-d0b6-4bd0-9b61-db86d7c65969
@@ -1862,7 +1862,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '@warp_city #2'
+- name: 'Channel id: @ShadowProxy66🇫🇷'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -2138,16 +2138,6 @@ proxies:
   sni: all-v4.dgi000.store
   tls: false
   type: hysteria2
-- name: '@warp_city'
-  obfs: salamander
-  obfs-password: '@warp_city'
-  password: '@warp_city'
-  port: 35000
-  server: jnir-5.pichondan.com
-  skip-cert-verify: false
-  sni: pichondan.com
-  tls: false
-  type: hysteria2
 - name: 🇮🇱telegram ➠ @v2rayNG_Matsuri
   password: AZrgUfcGknbd6Q6LHkzMT0ODVk
   port: 32089
@@ -2207,16 +2197,6 @@ proxies:
   port: 9999
   server: 3.123.253.70
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '@warp_city #1'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35000
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
 - name: کانال  تلگرام عضو شو متصل بمون...
