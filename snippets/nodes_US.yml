@@ -61,18 +61,16 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 美国3|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
+  name: 🇺🇸 美国3|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
   port: 329
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 美国4|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
+  name: 🇺🇸 美国4|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
   port: 472
   server: 36.156.102.125
   skip-cert-verify: true
@@ -89,6 +87,22 @@ proxies:
     headers:
       Host: xXcdvFgt.191268.XYz
     path: '%2FctdmgeIg3NII3ibrzzKXJGy3S1'
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 329
+  server: 36.156.102.125
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 美国4|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 472
+  server: 36.156.102.125
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - name: US_speednode_0123
   network: ws
   password: tg-fq521free
