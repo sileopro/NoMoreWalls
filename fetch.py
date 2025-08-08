@@ -111,7 +111,7 @@ FAKE_DOMAINS = ".google.com .github.com".split()
 
 FETCH_TIMEOUT = (6, 5)
 
-BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8gb25ndGFpd2Fu').split()
+BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8g5L2/5YqyIOWKsiDliqog5YqbIOWKoOayuSDlpbMg5p2DIOi/kOWKqCBvbmd0YWl3YW4=').split()
 
 # !!! JUST FOR DEBUGING !!!
 DEBUG_NO_NODES = os.path.exists("local_NO_NODES")
@@ -127,6 +127,7 @@ d = datetime.datetime.now()
 if STOP or ((d.month, d.day) in ((6, 4), (7, 1), (9, 3), (10, 1)) and not (LOCAL or PROXY)):
     DEBUG_NO_NODES = DEBUG_NO_DYNAMIC = STOP = True
     NAME_SHOW_TYPE = NAME_NO_FLAGS = NAME_SHOW_SRC = False
+    BANNED_WORDS = []
 
 session = requests.Session()
 session.trust_env = False
