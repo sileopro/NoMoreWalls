@@ -1772,6 +1772,15 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: Telegram:@config_proxy 😍
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36300
+  server: yapc-1.adamhayward.co.uk
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
 - name: 新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
@@ -1846,7 +1855,7 @@ proxies:
   sni: aparat.com
   tls: false
   type: hysteria2
-- name: Telegram:@config_proxy 😍
+- name: 'Channel id: @ShadowProxy66🇺🇸 #7'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
