@@ -95,16 +95,6 @@ proxies:
   sni: dg.dport.top
   tls: false
   type: hysteria2
-- name: آلمان 🇩🇪 @V2xay
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  port: 35000
-  server: 77.90.52.69
-  skip-cert-verify: true
-  sni: pichondan.com
-  tls: false
-  type: hysteria2
 - name: 🇩🇪 @VPNHubMaRKeT ♾  @VpnHubMar...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
@@ -115,7 +105,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'آلمان 🇩🇪 @V2xay #2'
+- name: آلمان 🇩🇪 @V2xay
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -132,25 +122,6 @@ proxies:
   port: 9999
   server: 3.123.253.70
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 'آلمان 🇩🇪 @V2xay #3'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f39a270d-c46e-4a39-a998-b33660291e7e
-  port: 20557
-  server: nexiadg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiadg.688997.xyz
-  tls: false
-  type: hysteria2
-- name: 'آلمان 🇩🇪 @V2xay #4'
-  obfs: salamander
-  obfs-password: The_Sefr-salamdash
-  password: user12.myserverSEFR097
-  port: 443
-  server: knock.zone1.center
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '@SaghiVpnXBOT 🇩🇪[🇩🇪]'
