@@ -272,6 +272,8 @@ rules:
 
   - DOMAIN-SUFFIX,xiaohongshu.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,xhscdn.com,⛔ 广告拦截
+  - DOMAIN-SUFFIX,douban.com,⛔ 广告拦截
+  - DOMAIN-SUFFIX,doubanio.com,⛔ 广告拦截
 
 
   # 国内网站（优先，避免 google.cn 走代理）
