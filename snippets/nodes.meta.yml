@@ -2167,7 +2167,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: کانال  تلگرام عضو شو متصل بمون...
+- name: '@SaghiVpnX[🇳🇱] #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
