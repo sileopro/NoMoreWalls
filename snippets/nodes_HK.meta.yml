@@ -51,7 +51,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'zeshtobad #1'
+- name: 'Channel id: @ShadowProxy66🇭🇰'
   password: cc83a02b-90ea-403b-9c76-27e4be95f637
   port: 50256
   server: 154.204.181.230
@@ -59,7 +59,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'zeshtobad #4'
+- name: 'Channel id: @ShadowProxy66🇭🇰 #1'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
