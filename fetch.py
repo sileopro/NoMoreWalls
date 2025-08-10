@@ -1352,8 +1352,5 @@ def main():
     print("写出完成！")
 
 if __name__ == '__main__':
-    from dynamic import AUTOURLS, AUTOFETCH # type: ignore
-    AUTOFUNTYPE = Callable[[], Union[str, Iterable[str], None]]
-    AUTOURL: List[AUTOFUNTYPE]
-    AUTOFETCH: List[AUTOFUNTYPE]
+    from dynamic import AUTOURLS, AUTOFETCH
     main()
