@@ -67,6 +67,16 @@ proxies:
   sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
+- name: '@SaghiVpnX[🇭🇰]'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: d3b8fcfb-4f76-476e-9c7d-ce43a1d32267
+  port: 20057
+  server: nexiaxg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiaxg.688997.xyz
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
