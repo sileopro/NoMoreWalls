@@ -95,14 +95,14 @@ proxies:
   sni: dg.dport.top
   tls: false
   type: hysteria2
-- name: 🇩🇪 @VPNHubMaRKeT ♾  @VpnHubMar...
+- name: 德国1
   obfs: salamander
-  obfs-password: '@VPNHubMaRKeT'
-  password: '@VPNHubMaRKeT'
-  port: 443
-  server: 202.78.166.190
+  obfs-password: LNAnPYDfFyesRAVn
+  password: 9f2245e8-04fb-488d-80cf-ac8e8b53da82
+  port: 25352
+  server: dg1.gy6688.xyz
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: dg1.gy6688.xyz
   tls: false
   type: hysteria2
 - name: آلمان 🇩🇪 @V2xay
@@ -113,15 +113,6 @@ proxies:
   server: gavazn.lnmarketplace.net
   skip-cert-verify: true
   sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
-- name: 🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-  obfs: salamander
-  obfs-password: tel:@VPNHubMaRKeT
-  password: VPNHubMaRKeT
-  port: 9999
-  server: 3.123.253.70
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '@SaghiVpnXBOT 🇩🇪[🇩🇪]'
