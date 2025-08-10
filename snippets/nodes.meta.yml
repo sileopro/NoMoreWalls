@@ -1972,16 +1972,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0004f8b0-df8e-4f3d-866a-e3547122933d
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  tls: false
-  type: hysteria2
 - name: GB 1 🇬🇧 | @v2xay
   password: 07a95561-a7c6-40fb-b964-45c83a2833bf
   port: 51234
@@ -2043,7 +2033,7 @@ proxies:
   sni: flydg.flylink.cyou
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #1'
+- name: '@Daily_Configs'
   obfs: salamander
   obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
   password: 30cd031e-b4a6-4bc7-a99a-9642259fdeff
@@ -2131,7 +2121,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #2'
+- name: '@Daily_Configs #1'
   password: 68821a5b-49db-49c7-924f-22b1441e5b30
   port: 443
   server: 107.173.127.166
@@ -2139,7 +2129,7 @@ proxies:
   sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #3'
+- name: '@Daily_Configs #2'
   password: 68821a5b-49db-49c7-924f-22b1441e5b30
   port: 443
   server: 198.23.130.211
@@ -2368,7 +2358,7 @@ proxies:
   sni: nexiaxg.688997.xyz
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #4'
+- name: '@Daily_Configs #3'
   obfs: salamander
   obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
   password: d4a98364-7b10-4ebd-b79b-7f045d66ff33
@@ -2420,7 +2410,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #6'
+- name: '@Daily_Configs #4'
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: e6eb767c-6275-4c0c-9232-75aa2a0e9952
