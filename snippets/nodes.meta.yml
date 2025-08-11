@@ -2328,16 +2328,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #3'
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: d4a98364-7b10-4ebd-b79b-7f045d66ff33
-  port: 35250
-  server: flyhl.flylink.cyou
-  skip-cert-verify: true
-  sni: flyhl.flylink.cyou
-  tls: false
-  type: hysteria2
 - name: TR 4 🇹🇷 | @v2xay
   obfs: salamander
   obfs-password: Mzc5NTA3MjVlZDMyYTYyMA==
@@ -2380,7 +2370,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #4'
+- name: '@Daily_Configs #3'
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: e6eb767c-6275-4c0c-9232-75aa2a0e9952
