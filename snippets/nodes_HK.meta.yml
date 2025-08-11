@@ -51,32 +51,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66🇭🇰'
-  password: cc83a02b-90ea-403b-9c76-27e4be95f637
-  port: 50256
-  server: 154.204.181.230
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'Channel id: @ShadowProxy66🇭🇰 #1'
-  password: nfsn666
-  port: 8888
-  server: 45.207.222.138
-  skip-cert-verify: true
-  sni: hk.nfsn666.gq
-  tls: false
-  type: hysteria2
-- name: '@SaghiVpnX[🇭🇰]'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: d3b8fcfb-4f76-476e-9c7d-ce43a1d32267
-  port: 20057
-  server: nexiaxg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaxg.688997.xyz
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
