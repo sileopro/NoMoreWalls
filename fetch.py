@@ -111,7 +111,7 @@ FAKE_DOMAINS = ".google.com .github.com".split()
 
 FETCH_TIMEOUT = (6, 5)
 
-BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8g5L2/5YqyIOWKsiDliqog5YqbIOWKoOayuSDlpbMg5p2DIOi/kOWKqCBvbmd0YWl3YW4=').split()
+BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8g5L2/5YqyIOWKsiDliqrlipsg5Yqg5rK5IOWlsyDmnYMg6L+Q5YqoIG9uZ3RhaXdhbg==').split()
 
 # !!! JUST FOR DEBUGING !!!
 DEBUG_NO_NODES = os.path.exists("local_NO_NODES")
