@@ -37,22 +37,6 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 'Channel id: @ShadowProxy66🇸🇬'
-  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
-  port: 22509
-  server: 18.143.180.14
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 'Channel id: @ShadowProxy66🇸🇬 #1'
-  password: 664S8kkvFHXmO1auxV6A9gKAHI
-  port: 8030
-  server: 18.143.168.252
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: 新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
