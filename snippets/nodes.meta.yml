@@ -1861,19 +1861,17 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'ViP RGB🚀 #30'
+- name: 'Channel id: @ShadowProxy66🇫🇷'
   password: 942b9cb8-92fa-46ac-ae91-f69c8234434b
   port: 46502
   server: 172.252.236.213
-  skip-cert-verify: false
   sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
-- name: 'ViP RGB🚀 #31'
+- name: 'Channel id: @ShadowProxy66🇺🇦'
   password: 942b9cb8-92fa-46ac-ae91-f69c8234434b
   port: 59494
   server: 185.126.255.78
-  skip-cert-verify: false
   sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
@@ -2120,54 +2118,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: ViP RGB🚀
-  password: 07c122ad-50b2-4f61-9435-efcf112bb10b
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #1'
-  password: 07c122ad-50b2-4f61-9435-efcf112bb10b
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #2'
-  password: 0cb527d9-6117-4bcf-a52b-1704b3458cef
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #3'
-  password: 0cb527d9-6117-4bcf-a52b-1704b3458cef
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #4'
-  password: 1045aedf-053c-4585-875d-e2fc3f3ea6dd
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #5'
-  password: 1045aedf-053c-4585-875d-e2fc3f3ea6dd
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
 - name: '@V2rayNG3'
   password: '123456'
   port: 443
@@ -2184,22 +2134,6 @@ proxies:
   sni: gb.gomeow.online
   tls: false
   type: hysteria2
-- name: 'ViP RGB🚀 #6'
-  password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #7'
-  password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
 - name: '@V2rayNG3 #2'
   obfs: salamander
   obfs-password: de8287cd33b05fa3
@@ -2210,44 +2144,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'ViP RGB🚀 #8'
-  password: 23125f6e-ec56-4c26-9714-0bbacdb53d01
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #9'
-  password: 23125f6e-ec56-4c26-9714-0bbacdb53d01
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
 - name: 美国10 付费推荐：https://dafei.de
   password: 27e473f8-d610-4b04-bdf7-d0c39b47c897
   port: 45000
   server: 23.80.81.213
   skip-cert-verify: true
   sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #10'
-  password: 29fbd51f-03c8-4d76-849a-436e54d58317
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #11'
-  password: 29fbd51f-03c8-4d76-849a-436e54d58317
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: 🛡️ @FreakConfig
@@ -2266,70 +2168,6 @@ proxies:
   server: android.yas-nowin.ir
   skip-cert-verify: false
   sni: android.yas-nowin.ir
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #12'
-  password: 413c8b50-96bf-4457-82f2-54dfa8685f53
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #13'
-  password: 413c8b50-96bf-4457-82f2-54dfa8685f53
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #14'
-  password: 45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #15'
-  password: 45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #16'
-  password: 4685eb2a-5ddb-4dc6-9e53-f0c90d6124c1
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #17'
-  password: 4685eb2a-5ddb-4dc6-9e53-f0c90d6124c1
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #18'
-  password: 48c2c901-72e6-46d4-ac78-169d73264cbf
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #19'
-  password: 48c2c901-72e6-46d4-ac78-169d73264cbf
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: '🛡️ @FreakConfig #1'
@@ -2358,54 +2196,6 @@ proxies:
   server: 107.174.41.101
   skip-cert-verify: true
   sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #20'
-  password: 52816135-d3bc-46bc-a915-09886a2e2b2e
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #21'
-  password: 52816135-d3bc-46bc-a915-09886a2e2b2e
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #22'
-  password: 55ca7a9e-cf90-49df-b14a-9346c59b73b9
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #23'
-  password: 55ca7a9e-cf90-49df-b14a-9346c59b73b9
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #24'
-  password: 5eaa121d-4362-444d-8219-29b02c35303a
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #25'
-  password: 5eaa121d-4362-444d-8219-29b02c35303a
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: '🛡️ @FreakConfig #2'
@@ -2474,22 +2264,6 @@ proxies:
   sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: 'ViP RGB🚀 #26'
-  password: 6bf726db-fb0b-405b-899a-3e263f092eda
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #27'
-  password: 6bf726db-fb0b-405b-899a-3e263f092eda
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
 - name: '@V2rayNG3 #3'
   password: 75577117-ABCD-DCBA-AAAA-CC777775577B
   port: 7777
@@ -2498,44 +2272,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'ViP RGB🚀 #28'
-  password: 80b2ac81-ba69-41f9-bb46-820b7b3af4dd
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #29'
-  password: 80b2ac81-ba69-41f9-bb46-820b7b3af4dd
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
 - name: '美国10 付费推荐：https://dafei.de #3'
   password: 8a104bc2-a8d1-4f38-8c29-17176a68b7d5
   port: 45000
   server: 23.80.81.213
   skip-cert-verify: true
   sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: RGB🚀
-  password: 9c859345-959f-491b-b6fc-65cd7a57aeb3
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'RGB🚀 #1'
-  password: 9c859345-959f-491b-b6fc-65cd7a57aeb3
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: '@V2rayNG3 #4'
@@ -2605,7 +2347,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 'ViP RGB🚀 #32'
+- name: ViP RGB🚀
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2631,22 +2373,6 @@ proxies:
   server: de2.587458.xyz
   skip-cert-verify: false
   sni: de2.587458.xyz
-  tls: false
-  type: hysteria2
-- name: 'RGB🚀 #3'
-  password: c6e02cd8-ce11-40f0-afeb-e2c412b6cc3a
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'RGB🚀 #4'
-  password: c6e02cd8-ce11-40f0-afeb-e2c412b6cc3a
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: GB 🇬🇧 | @v2xay
@@ -2699,22 +2425,6 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: 'ViP RGB🚀 #33'
-  password: e31ad3e6-e341-42ac-bdc7-bea02d126fc1
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #34'
-  password: e31ad3e6-e341-42ac-bdc7-bea02d126fc1
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
 - name: '@Daily_Configs #3'
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
@@ -2725,22 +2435,6 @@ proxies:
   sni: bx.dport.top
   tls: false
   type: hysteria2
-- name: 'ViP RGB🚀 #35'
-  password: ebbeef45-0fd8-40cd-aca5-1e2ce18abeff
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #36'
-  password: ebbeef45-0fd8-40cd-aca5-1e2ce18abeff
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
 - name: '@V2rayNG3 #9'
   obfs: salamander
   obfs-password: dbc688df29e582d3
@@ -2749,22 +2443,6 @@ proxies:
   server: 62.60.231.189
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #37'
-  password: f901861b-6491-450c-b500-606b2e921625
-  port: 46502
-  server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 'ViP RGB🚀 #38'
-  password: f901861b-6491-450c-b500-606b2e921625
-  port: 59494
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: '🛡️ @FreakConfig #5'
@@ -2810,7 +2488,7 @@ proxies:
   name: tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 15.188.74.209
+  server: 51.44.179.14
   tfo: false
   type: ss
 - alterId: 2
@@ -2844,22 +2522,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
+  name: 🇭🇰 香港3|@ripaojiedian
+  port: 44470
+  server: 43.247.135.176
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
 - name: 香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -2883,38 +2555,12 @@ proxies:
   skip-cert-verify: true
   sni: www.ithome.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港7|@ripaojiedian
-  port: 44470
-  server: 43.247.135.176
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
-- name: 🇹🇼 台湾|@ripaojiedian
-  password: test.+
-  port: 30443
-  server: cmhkb.ssv.vc
-  skip-cert-verify: false
-  sni: cmhkb.ssv.vc
-  tls: true
-  type: http
-  username: test
-- name: 台湾2|@ripaojiedian
-  network: tcp
-  password: be76ac23-8ff8-4afe-a86e-5153f4ce869d
-  port: 25004
-  server: 8.134.93.116
-  skip-cert-verify: true
-  type: trojan
 - cipher: rc4-md5
   name: 🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-oza3DJO8nv.download.microsoft.com
+    host: 202507282137611-pwlP10l6s0.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -2952,6 +2598,13 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本5|@ripaojiedian
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35782
+  server: t1.fttos.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 🇰🇷 韩国|@ripaojiedian
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   port: 19852
@@ -2981,6 +2634,22 @@ proxies:
   server: 8.148.194.255
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 新加坡4|@ripaojiedian
+  network: ws
+  port: '16618'
+  server: t.cnmjcn.cyou
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563
+  ws-opts:
+    headers:
+      Host: e5406c2f4f42756d4a4089ffcd58947b.mobgslb.tbcache.com
+    path: /
 - name: 🇺🇸 美国|@ripaojiedian
   network: ws
   password: 7248e825-887c-48b9-83bc-c26bc6392bf8
@@ -2998,7 +2667,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-oza3DJO8nv.download.microsoft.com
+    host: 202507282137611-pwlP10l6s0.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -3022,7 +2691,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 香港7|@ripaojiedian
+  name: 香港3|@ripaojiedian
   network: tcp
   port: '44470'
   server: 43.247.135.176
