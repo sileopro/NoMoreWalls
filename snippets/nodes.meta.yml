@@ -334,7 +334,7 @@ proxies:
   sni: file-oss-ccs-02.dafei.de
   tls: false
   type: hysteria2
-- name: 💎کانفیگ های بیشتر در چنل تلگرا...
+- name: Telegram:@config_proxy 💦
   password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
   port: 31468
   server: 77.223.214.193
@@ -888,14 +888,6 @@ proxies:
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '@ToxicVid ⁶'
-  password: c5c2bdda-30f9-4252-b074-1f515e38adde
-  port: 1443
-  server: de2.587458.xyz
-  skip-cert-verify: false
-  sni: de2.587458.xyz
   tls: false
   type: hysteria2
 - name: '@V2rayNG3 #8'
