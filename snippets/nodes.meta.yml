@@ -103,16 +103,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🍰37@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: LNAnPYDfFyesRAVn
-  password: 15a13318-8c5f-4f5f-9729-cadf6c02a3e8
-  port: 22986
-  server: hl1.gy6688.xyz
-  skip-cert-verify: true
-  sni: hl1.gy6688.xyz
-  tls: false
-  type: hysteria2
 - name: Hysteria
   password: 1JA6CF8JMUDvoz6zfm5qHwlN3Wo
   port: 4410
@@ -385,16 +375,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #2'
-  obfs: salamander
-  obfs-password: aA@8795
-  password: FREEEE_7.87958795
-  port: 443
-  server: 91.107.251.13
-  skip-cert-verify: true
-  sni: fast.com
-  tls: false
-  type: hysteria2
 - name: US
   password: HfK3UK4MoXxYUccnp7qzx3Y3o
   port: 34321
@@ -490,16 +470,6 @@ proxies:
   server: 175.41.154.215
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '@Daily_Configs #6'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36600
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
 - name: 🇦🇺澳大利亚
@@ -829,6 +799,16 @@ proxies:
   sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
+- name: '@Daily_Configs #2'
+  obfs: salamander
+  obfs-password: aA@8795
+  password: FREEEE_7.87958795
+  port: 443
+  server: 91.107.251.13
+  skip-cert-verify: true
+  sni: fast.com
+  tls: false
+  type: hysteria2
 - name: '@ELFV2RAY'
   password: J7VnJazPBw
   port: 443
@@ -880,13 +860,13 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #1'
+- name: '🇳🇱@FreakConfig #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 35000
   server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
@@ -898,6 +878,16 @@ proxies:
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
+  tls: false
+  type: hysteria2
+- name: '@Daily_Configs #6'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
 - name: '@ToxicVid ⁶'
