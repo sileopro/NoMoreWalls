@@ -272,16 +272,6 @@ proxies:
   sni: hsels.huasuan666.top
   tls: false
   type: hysteria2
-- name: 26🍰@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 652cc5d4-afbb-48f0-bb80-93bbc00b0415
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  tls: false
-  type: hysteria2
 - name: 德国
   password: 66975a45-dd40-4854-ba7b-80157a38dd64
   port: 40001
@@ -354,7 +344,7 @@ proxies:
   sni: file-oss-ccs-02.dafei.de
   tls: false
   type: hysteria2
-- name: Telegram:@config_proxy 💦
+- name: 💎کانفیگ های بیشتر در چنل تلگرا...
   password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
   port: 31468
   server: 77.223.214.193
@@ -836,6 +826,14 @@ proxies:
   password: Bz0jKM83wa
   port: 443
   server: android.yas-nowin.ir
+  sni: android.yas-nowin.ir
+  tls: false
+  type: hysteria2
+- name: '@ELFV2RAY'
+  password: J7VnJazPBw
+  port: 443
+  server: 91.98.34.130
+  skip-cert-verify: false
   sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
