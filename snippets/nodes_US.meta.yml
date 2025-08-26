@@ -23,7 +23,7 @@ proxies:
   sni: mg.dimoyun.top
   tls: false
   type: hysteria2
-- name: 'Telegram:@config_proxy 😍 #58'
+- name: 'Channel id: @proxy_kafee🇺🇸 #1'
   password: 7992f244-8c2c-4a1a-923f-2e116e90149b
   port: 443
   server: 198.23.130.211
@@ -63,7 +63,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 'Telegram:@config_proxy 😍 #84'
+- name: 'Channel id: @proxy_kafee🇺🇸 #2'
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   password: c8631767-f45c-4f48-bf19-5405e6d18679
@@ -72,7 +72,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '🇺🇸美国 #1'
+- name: 'Telegram:@config_proxy 😍 #22'
   password: de8854c7-fa17-4266-ae18-50a9732a0c4e
   port: 3001
   server: us2.1010991.xyz
@@ -80,7 +80,7 @@ proxies:
   sni: us2.1010991.xyz
   tls: false
   type: hysteria2
-- name: 'Telegram:@config_proxy 😍 #97'
+- name: '@Selinc'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
@@ -88,7 +88,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: 'Telegram:@config_proxy 😍 #98'
+- name: 'Channel id: @proxy_kafee🇺🇸 #4'
   password: dongtaiwang.com
   port: 22222
   server: 208.87.243.187
