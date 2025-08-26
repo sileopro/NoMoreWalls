@@ -23,7 +23,7 @@ proxies:
   sni: mg.dimoyun.top
   tls: false
   type: hysteria2
-- name: 'Channel id: @proxy_kafee🇺🇸 #1'
+- name: 'Telegram:@config_proxy 😍 #58'
   password: 7992f244-8c2c-4a1a-923f-2e116e90149b
   port: 443
   server: 198.23.130.211
@@ -63,7 +63,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @proxy_kafee🇺🇸 #2'
+- name: 'Telegram:@config_proxy 😍 #84'
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   password: c8631767-f45c-4f48-bf19-5405e6d18679
@@ -80,7 +80,7 @@ proxies:
   sni: us2.1010991.xyz
   tls: false
   type: hysteria2
-- name: '@Selinc'
+- name: 'Telegram:@config_proxy 😍 #97'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
@@ -88,7 +88,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @proxy_kafee🇺🇸 #4'
+- name: 'Telegram:@config_proxy 😍 #98'
   password: dongtaiwang.com
   port: 22222
   server: 208.87.243.187
@@ -109,25 +109,25 @@ proxies:
   client-fingerprint: chrome
   name: 美国|@ripaojiedian
   network: ws
-  port: '22100'
-  server: 45.136.245.177
-  servername: ''
+  port: '443'
+  server: ssssssssssssfffffffgh.2032.pp.ua
+  servername: ssssssssssssfffffffgh.2032.pp.ua
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 58abdfa2-3565-4280-9a98-a2c3e6f5c0ef
+  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: ssssssssssssfffffffgh.2032.pp.ua
+    path: /6We3U9Df1WGxgFnoFPw1
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-6BC1sDS0wf.download.microsoft.com
+    host: 202508150964186-s7f2G9IKUT.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -137,19 +137,19 @@ proxies:
   name: 美国3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 480
-  server: 36.150.215.141
+  port: 2206
+  server: 36.156.102.116
   skip-cert-verify: true
-  sni: v1-dy.ixigua.com
+  sni: 36.156.102.116
   type: trojan
 - client-fingerprint: chrome
   name: 美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 22006
-  server: 36.150.215.141
+  port: 4729
+  server: 36.156.102.116
   skip-cert-verify: true
-  sni: v1-dy.ixigua.com
+  sni: www.baidu.com
   type: trojan
 - name: US_speednode_0085
   network: ws

@@ -15,7 +15,7 @@ proxies:
   sni: xg.dimoyun.top
   tls: false
   type: hysteria2
-- name: UK家宽
+- name: 'Telegram:@config_proxy 😍 #60'
   password: 7GEEGxAfgQaVPQX0PGk7lIuj3I
   port: 10820
   server: 158.41.110.234
