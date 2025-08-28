@@ -29,7 +29,8 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 🇺🇸 美国3|@ripaojiedian
+  name: 美国3|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4801
   server: 36.150.215.203
@@ -37,26 +38,11 @@ proxies:
   sni: 36.156.102.116
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸 美国4|@ripaojiedian
+  name: 美国4|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 7177
   server: 36.150.215.203
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4801
-  server: 43.199.63.145
-  skip-cert-verify: true
-  sni: 36.156.102.116
-  type: trojan
-- name: 美国4|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 5343
-  server: 43.199.63.145
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
