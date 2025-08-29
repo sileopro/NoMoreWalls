@@ -374,15 +374,6 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: Telegram:@config_proxy 😍
-  obfs: salamander
-  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
-  password: ac09066f-0ec5-45cf-b5d2-50ab44440eec
-  port: 80
-  server: 45.136.245.177
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '🇭🇰香港 #2'
   password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c
   port: 63518
