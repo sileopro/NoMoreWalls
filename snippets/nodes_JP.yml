@@ -28,7 +28,8 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 🇯🇵 日本3|@ripaojiedian
+  name: 日本3|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 13345
   server: xingxing.jiasu123.org
@@ -40,14 +41,6 @@ proxies:
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1924
-  server: xingxing.jiasu123.org
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
-- name: 日本3|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4613
   server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
