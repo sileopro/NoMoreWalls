@@ -148,7 +148,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'WI-FI--@IRAN_V2RAY1 #2'
+- name: '☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #4'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -309,7 +309,7 @@ proxies:
   sni: anymath.ir
   tls: false
   type: hysteria2
-- name: TEL > SaghiVpnXBOT 🍌[🇳🇱]
+- name: '☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -355,6 +355,16 @@ proxies:
   server: yue-ru.yuetoto.net
   skip-cert-verify: false
   sni: yue-ru.yuetoto.net
+  tls: false
+  type: hysteria2
+- name: '@Daily_Configs #4'
+  obfs: salamander
+  obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs
+  password: channel_dailyconfigs
+  port: 443
+  server: 95.181.174.31
+  skip-cert-verify: true
+  sni: slack.com
   tls: false
   type: hysteria2
 - name: '@Daily_Configs IPv4'
