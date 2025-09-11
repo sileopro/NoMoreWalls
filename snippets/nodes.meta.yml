@@ -437,7 +437,7 @@ proxies:
   sni: slack.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs (•ˋ _ ˊ•)'
+- name: '@Daily_Configs «== کانال'
   obfs: salamander
   obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs
   password: joindailyconfigs
