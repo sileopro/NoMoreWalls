@@ -2,10 +2,11 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国|@ripaojiedian
+  name: 美国|@ripaojiedian
   network: ws
-  port: 30829
+  port: '30829'
   server: v29.heduian.link
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
