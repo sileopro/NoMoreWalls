@@ -2,10 +2,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国|@ripaojiedian
+  name: 美国|@ripaojiedian
   network: ws
-  port: 41317
+  port: '41317'
   server: a.lyazzz.online
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -37,18 +38,12 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸 美国4|@ripaojiedian
+  name: 美国4|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
   server: 160.16.117.182
   skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 美国4|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3294
-  server: 160.16.72.33
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: qq
