@@ -1,4 +1,94 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 防范境外势力渗透
+  network: tcp
+  port: '80'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #1'
+  network: tcp
+  port: '81'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #2'
+  network: tcp
+  port: '82'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #3'
+  network: tcp
+  port: '83'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #4'
+  network: tcp
+  port: '84'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #5'
+  network: tcp
+  port: '85'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #6'
+  network: tcp
+  port: '86'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #7'
+  network: tcp
+  port: '87'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #8'
+  network: tcp
+  port: '88'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #9'
+  network: tcp
+  port: '89'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -151,10 +241,10 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 🇩🇪@V2RayyNGvpn🇩🇪
+- name: 🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: R9BN2XHrGV
+  password: RSGabzHJGl
   port: 31999
   server: 91.107.152.188
   skip-cert-verify: true
@@ -201,7 +291,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
+- name: '🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: ZkWtnfGK6h
@@ -261,7 +351,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #1'
+- name: '🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #2'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: lubtxOi8h8
@@ -278,6 +368,24 @@ proxies:
   port: 1935
   server: nrealistic.nn-foto.ru
   sni: nrealistic.nn-foto.ru
+  tls: false
+  type: hysteria2
+- name: 🪩45@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 3sv5vpdl9xr84lyb
+  password: o3774es6cfv74kaf
+  port: 443
+  server: social.klipp.su
+  sni: social.klipp.su
+  tls: false
+  type: hysteria2
+- name: '🇩🇪117460 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: 3sv5vpdl9xr84lyb
+  password: o3774es6cfv74kaf
+  port: 443
+  server: soskeynets.klipp.su
+  sni: social.klipp.su
   tls: false
   type: hysteria2
 - name: MTMVPN 🇩🇪
